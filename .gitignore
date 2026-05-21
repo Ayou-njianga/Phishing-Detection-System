@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Model outputs
+phase1-model/outputs/models/*.onnx
+phase1-model/outputs/models/*.h5
+phase1-model/outputs/models/*.pb
+phase1-model/data/raw/*.csv
+phase1-model/data/processed/*.csv
+phase1-model/data/splits/*.csv
+
+# Android
+*.apk
+*.aab
+*.iml
+.gradle/
+local.properties
+phase3-android/PhishingDetector/.idea/
+
+# Docker
+phase2-backend/.env
+
+# OS
+.DS_Store
+Thumbs.db

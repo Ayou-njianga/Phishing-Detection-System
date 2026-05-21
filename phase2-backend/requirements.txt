@@ -1,0 +1,35 @@
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1
+gunicorn==22.0.0
+
+# MongoDB
+pymongo==4.7.2
+
+# ONNX inference
+onnxruntime==1.18.0
+numpy==1.26.4
+
+# HTTP + external APIs
+requests==2.31.0
+urllib3==2.2.1
+
+# Feature extraction (shared with Phase 1)
+tldextract==5.1.2
+
+# Config + logging
+pyyaml==6.0.1
+python-dotenv==1.0.1
+
+# Security
+cryptography==42.0.7
+
+# Testing
+pytest==8.2.0
+pytest-cov==5.0.0
+pytest-mock==3.14.0
+responses==0.25.3
+
+# Dev tools
+black==24.4.2
+flake8==7.0.0
