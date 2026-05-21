@@ -1,0 +1,56 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  splits_dir: data/splits
+  phishing_sources:
+    - phishtank        # Downloaded via PhishTank API
+    - openphish        # Downloaded from openphish.com/feed.txt
+  legitimate_source: alexa_top_1m
+  test_size: 0.15
+  val_size: 0.15
+  random_seed: 42
+
+features:
+  lexical:
+    - url_length
+    - num_dots
+    - num_hyphens
+    - num_underscores
+    - num_slashes
+    - num_at_symbols
+    - num_question_marks
+    - num_equals
+    - num_digits
+    - has_ip_address
+    - has_suspicious_keywords
+    - has_https
+    - url_entropy
+    - domain_length
+    - path_length
+    - subdomain_count
+  structural:
+    - domain_reputation_score
+    - uses_ip_instead_of_domain
+    - redirect_depth
+    - has_port
+    - tld_in_suspicious_list
+    - num_subdomains
+    - path_contains_exe
+  contextual:
+    - domain_age_days
+    - recently_registered          # domain_age_days < 30
+
+model:
+  hidden_layers: [256, 128, 64]
+  dropout_rate: 0.3
+  learning_rate: 0.001
+  batch_size: 512
+  epochs: 50
+  early_stopping_patience: 5
+  confidence_threshold: 0.75      # Below this triggers VirusTotal check
+
+outputs:
+  models_dir: outputs/models
+  metrics_dir: outputs/metrics
+  plots_dir: outputs/plots
+  model_name: phishing_detector

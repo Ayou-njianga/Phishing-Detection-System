@@ -1,0 +1,77 @@
+version: "3.9"
+
+services:
+
+  # ── Flask backend ─────────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: phishing_backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB_NAME=phishing_detector
+      - ONNX_MODEL_PATH=/models/phishing_detector_quantized.onnx
+      - VIRUSTOTAL_API_KEY=${VIRUSTOTAL_API_KEY}
+      - CONFIDENCE_THRESHOLD=0.75
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      # Mount Phase 1 model output into the container
+      - ../phase1-model/outputs/models:/models:ro
+      - ./logs:/app/logs
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks:
+      - phishing_net
+
+  # ── MongoDB ───────────────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7.0
+    container_name: phishing_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./scripts/seed_mongodb.py:/docker-entrypoint-initdb.d/seed.py:ro
+    environment:
+      - MONGO_INITDB_DATABASE=phishing_detector
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - phishing_net
+
+  # ── Mongo Express (optional dev UI) ───────────────────────────────────────────
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: phishing_mongo_express
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=admin123
+    depends_on:
+      - mongo
+    networks:
+      - phishing_net
+    profiles:
+      - dev   # Only starts with: docker-compose --profile dev up
+
+volumes:
+  mongo_data:
+    driver: local
+
+networks:
+  phishing_net:
+    driver: bridge
