@@ -87,8 +87,7 @@ class OnnxService:
             features = extract(url)
             X = np.array([features], dtype=np.float32)
             outputs = self._session.run(None, {self._input_name: X})
-            # Output shape: [[probability]]
-            probability = float(outputs[0][0][0])
+            probability = self._parse_probability(outputs, index=0)
             logger.debug(f"ONNX inference: {url[:60]} → {probability:.4f}")
             return probability
         except Exception as exc:
@@ -112,7 +111,25 @@ class OnnxService:
             features_batch = [extract(url) for url in urls]
             X = np.array(features_batch, dtype=np.float32)
             outputs = self._session.run(None, {self._input_name: X})
-            return [float(p[0]) for p in outputs[0]]
+            return [self._parse_probability(outputs, index=i) for i in range(len(urls))]
         except Exception as exc:
             logger.error(f"ONNX batch inference error: {exc}")
             return [None] * len(urls)
+
+    @staticmethod
+    def _parse_probability(outputs, index: int) -> float:
+        """
+        Parse phishing probability from ONNX output.
+
+        Handles two formats:
+        - TensorFlow/Keras: outputs[0] shape (N, 1) — raw sigmoid probability
+        - sklearn/skl2onnx: outputs[0] shape (N,) labels, outputs[1] shape (N, 2) proba
+        """
+        if (len(outputs) >= 2
+                and hasattr(outputs[1], 'ndim')
+                and outputs[1].ndim == 2
+                and outputs[1].shape[1] == 2):
+            # sklearn format: outputs[1][:, 1] is probability of class 1 (phishing)
+            return float(outputs[1][index][1])
+        # TensorFlow format: outputs[0][index][0]
+        return float(outputs[0][index][0])

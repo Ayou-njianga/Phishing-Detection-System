@@ -86,7 +86,7 @@ def extract(url: str) -> dict:
         "subdomain_count": len(subdomains),
         "has_ip_address": _has_ip_address(netloc),
         "has_https": int(parsed.scheme == "https"),
-        "has_port": int(":" in netloc and not netloc.endswith(":443") and not netloc.endswith(":80")),
+        "has_port": int(bool(parsed.port) and parsed.port not in {80, 443}),
         "has_suspicious_keywords": int(kw_hits > 0),
         "suspicious_keyword_count": kw_hits,
         "tld_in_suspicious_list": int(tld in SUSPICIOUS_TLDS),

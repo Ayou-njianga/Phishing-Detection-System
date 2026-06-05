@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhishGuard</string>
+
+    <!-- Services -->
+    <string name="notification_service_label">PhishGuard Notification Monitor</string>
+    <string name="accessibility_service_label">PhishGuard Link Monitor</string>
+    <string name="accessibility_service_description">Scans links in apps for phishing URLs using AI-powered detection.</string>
+
+    <!-- Home screen -->
+    <string name="title_home">PhishGuard</string>
+    <string name="hint_url">Enter a URL to check…</string>
+    <string name="btn_scan">Scan</string>
+    <string name="label_monitor_toggle">Background monitoring</string>
+    <string name="label_recent">Recent detections</string>
+    <string name="btn_view_all">View all</string>
+    <string name="tv_no_history">No detections yet.</string>
+
+    <!-- Status chips -->
+    <string name="status_notif_on">Notifications ✓</string>
+    <string name="status_notif_off">Notifications ✗</string>
+    <string name="status_access_on">Accessibility ✓</string>
+    <string name="status_access_off">Accessibility ✗</string>
+
+    <!-- Permission cards -->
+    <string name="card_notif_title">Grant notification access</string>
+    <string name="card_notif_body">Tap to open settings and enable PhishGuard as a notification listener.</string>
+    <string name="card_access_title">Grant accessibility access</string>
+    <string name="card_access_body">Tap to open settings and enable PhishGuard accessibility service.</string>
+
+    <!-- Results screen -->
+    <string name="title_results">Detection history</string>
+    <string name="tv_empty">No history yet.</string>
+
+    <!-- Item labels -->
+    <string name="label_phishing">⚠ Phishing %1$d%%</string>
+    <string name="label_safe">✓ Safe %1$d%%</string>
+
+    <!-- Scan result dialogs -->
+    <string name="result_title_phishing">⚠ Phishing URL</string>
+    <string name="result_title_safe">✓ Safe URL</string>
+    <string name="result_phishing">This URL is likely phishing (confidence %1$d%%).\nDo not click or share it.</string>
+    <string name="result_safe">This URL appears safe (confidence %1$d%%).</string>
+
+    <!-- Alert notification -->
+    <string name="alert_title">⚠ Phishing URL Detected</string>
+    <string name="alert_body">Confidence: %1$d%%\n%2$s</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Backend URL</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="history_cleared">History cleared.</string>
+
+    <!-- Settings dialog -->
+    <string name="dialog_api_url_title">Backend API URL</string>
+    <string name="api_url_saved">API URL updated.</string>
+</resources>

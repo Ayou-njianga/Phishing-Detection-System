@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnSurface">#212121</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorPrimaryVariant">#1976D2</color>
+    <color name="colorSecondary">#00BCD4</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="phishing_red">#D32F2F</color>
+    <color name="phishing_red_light">#FFEBEE</color>
+    <color name="safe_green">#388E3C</color>
+    <color name="safe_green_light">#E8F5E9</color>
+    <color name="text_secondary">#757575</color>
+    <color name="warning_orange">#F57C00</color>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <string name="accessibility_service_description">Scans links in apps for phishing URLs using AI-powered detection.</string>
+    <string name="accessibility_service_label">PhishGuard Link Monitor</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="action_settings">Backend URL</string>
+    <string name="alert_body">Confidence: %1$d%%\n%2$s</string>
+    <string name="alert_title">⚠ Phishing URL Detected</string>
+    <string name="api_url_saved">API URL updated.</string>
+    <string name="app_name">PhishGuard</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_view_all">View all</string>
+    <string name="card_access_body">Tap to open settings and enable PhishGuard accessibility service.</string>
+    <string name="card_access_title">Grant accessibility access</string>
+    <string name="card_notif_body">Tap to open settings and enable PhishGuard as a notification listener.</string>
+    <string name="card_notif_title">Grant notification access</string>
+    <string name="dialog_api_url_title">Backend API URL</string>
+    <string name="hint_url">Enter a URL to check…</string>
+    <string name="history_cleared">History cleared.</string>
+    <string name="label_monitor_toggle">Background monitoring</string>
+    <string name="label_phishing">⚠ Phishing %1$d%%</string>
+    <string name="label_recent">Recent detections</string>
+    <string name="label_safe">✓ Safe %1$d%%</string>
+    <string name="notification_service_label">PhishGuard Notification Monitor</string>
+    <string name="result_phishing">This URL is likely phishing (confidence %1$d%%).\nDo not click or share it.</string>
+    <string name="result_safe">This URL appears safe (confidence %1$d%%).</string>
+    <string name="result_title_phishing">⚠ Phishing URL</string>
+    <string name="result_title_safe">✓ Safe URL</string>
+    <string name="status_access_off">Accessibility ✗</string>
+    <string name="status_access_on">Accessibility ✓</string>
+    <string name="status_notif_off">Notifications ✗</string>
+    <string name="status_notif_on">Notifications ✓</string>
+    <string name="title_home">PhishGuard</string>
+    <string name="title_results">Detection history</string>
+    <string name="tv_empty">No history yet.</string>
+    <string name="tv_no_history">No detections yet.</string>
+    <style name="Theme.PhishingDetector" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.PhishingDetector.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

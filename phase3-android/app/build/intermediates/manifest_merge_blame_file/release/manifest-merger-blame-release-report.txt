@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.phishingdetector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Network -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <!-- Notifications (Android 13+) -->
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:9:5-77
+16-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:9:22-74
+17
+18    <!-- Boot — restart services on reboot -->
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:12:5-81
+19-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:12:22-78
+20
+21    <!-- Foreground service for notification monitoring -->
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:15:5-77
+22-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:15:22-74
+23
+24    <permission
+24-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.phishingdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.phishingdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:17:5-68:19
+31        android:allowBackup="true"
+31-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.12.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\11277b3cad23f480d6488067ff2fe0c0\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:19:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:21:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:24:9-69
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:20:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:22:9-35
+39        android:theme="@style/Theme.PhishingDetector" >
+39-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:23:9-54
+40
+41        <!-- ── Main UI ──────────────────────────────────────────────────── -->
+42        <activity
+42-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:27:9-36:20
+43            android:name="com.phishingdetector.ui.home.HomeActivity"
+43-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:28:13-49
+44            android:exported="true"
+44-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:29:13-36
+45            android:launchMode="singleTop"
+45-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:30:13-43
+46            android:windowSoftInputMode="adjustResize" >
+46-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:31:13-55
+47            <intent-filter>
+47-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:32:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:33:17-69
+48-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:34:17-77
+50-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:34:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:38:9-41:66
+54            android:name="com.phishingdetector.ui.results.ResultsActivity"
+54-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:39:13-55
+55            android:exported="false"
+55-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:40:13-37
+56            android:parentActivityName="com.phishingdetector.ui.home.HomeActivity" />
+56-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:41:13-63
+57
+58        <!-- ── Notification Listener Service ───────────────────────────── -->
+59        <service
+59-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:44:9-52:19
+60            android:name="com.phishingdetector.notification.PhishingNotificationService"
+60-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:45:13-69
+61            android:exported="true"
+61-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:46:13-36
+62            android:label="@string/notification_service_label"
+62-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:47:13-63
+63            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+63-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:48:13-87
+64            <intent-filter>
+64-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:49:13-51:29
+65                <action android:name="android.service.notification.NotificationListenerService" />
+65-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:50:17-99
+65-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:50:25-96
+66            </intent-filter>
+67        </service>
+68
+69        <!-- ── Accessibility Service ────────────────────────────────────── -->
+70        <service
+70-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:55:9-66:19
+71            android:name="com.phishingdetector.accessibility.PhishingAccessibilityService"
+71-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:56:13-71
+72            android:exported="true"
+72-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:57:13-36
+73            android:label="@string/accessibility_service_label"
+73-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:58:13-64
+74            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+74-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:59:13-79
+75            <intent-filter>
+75-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:60:13-62:29
+76                <action android:name="android.accessibilityservice.AccessibilityService" />
+76-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:61:17-92
+76-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:61:25-89
+77            </intent-filter>
+78
+79            <meta-data
+79-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:63:13-65:72
+80                android:name="android.accessibilityservice"
+80-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:64:17-60
+81                android:resource="@xml/accessibility_service_config" />
+81-->C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\src\main\AndroidManifest.xml:65:17-69
+82        </service>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.phishingdetector.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AYOUBA\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>
