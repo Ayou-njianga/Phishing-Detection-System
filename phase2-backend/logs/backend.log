@@ -1184,3 +1184,8 @@
 2026-06-06 07:18:42 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/accointances → 0.9996
 2026-06-06 07:18:42 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/accointances | confidence=0.9996 | threshold=0.5 | phishing=True
 2026-06-06 07:18:42 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/accointances | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.2ms
+2026-06-06 07:21:24 | INFO     | app.services.detection | [ALLOWLIST] http://youtube.com | root=youtube.com | safe | 0.1ms
+2026-06-06 07:21:47 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:21:47 | DEBUG    | app.services.onnx | ONNX inference: http://njianga.ayouba@ictuniversity.edu.cm → 0.9972
+2026-06-06 07:21:47 | DEBUG    | app.services.detection | [ONNX] http://njianga.ayouba@ictuniversity.edu.cm | confidence=0.9972 | threshold=0.5 | phishing=True
+2026-06-06 07:21:47 | INFO     | app.services.detection | [RESULT] http://njianga.ayouba@ictuniversity.edu.cm | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.0ms
