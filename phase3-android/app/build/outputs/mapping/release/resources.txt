@@ -1,45 +1,11 @@
-Marking attr:ratingBarStyle:2130903951 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking integer:app_bar_elevation_anim_duration:2131296258 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:state_liftable:2130904046 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_carousel_debug_keyline_width:2131099887 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:spinnerStyle:2130904023 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:radioButtonStyle:2130903949 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:editTextStyle:2130903451 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:row_index_key:2131231102 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_on_apply_window_listener:2131231170 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_window_insets_animation_callback:2131231178 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:cancel_button:2131230825 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:confirm_button:2131230852 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:nestedScrollable:2130903889 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialCardViewStyle:2130903788 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:CardView:2131820831 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:cardview_light_background:2131034156 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:cardview_dark_background:2131034155 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_day_height:2131100275 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:month_grid:2131231002 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_calendar_month_labeled:2131427408 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_Material3_SideSheet:2131821507 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingStandardDecelerateInterpolator:2130903861 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationMedium2:2130903844 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationShort3:2130903849 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationShort2:2130903848 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_back_progress_side_container_max_scale_x_distance_shrink:2131099827 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_back_progress_side_container_max_scale_x_distance_grow:2131099826 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_back_progress_side_container_max_scale_y_distance:2131099828 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:side_sheet_accessibility_pane_title:2131755197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:special_effects_controller_view_tag:2131231142 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialCalendarStyle:2130903782 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:toolbarStyle:2130904215 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_Toolbar:2131821656 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_min_touch_target_size:2131100350 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:bottomSheetStyle:2130903165 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_Design_BottomSheet_Modal:2131821362 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:bottomsheet_action_expand_halfway:2131755048 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_bottom_sheet_peek_height_min:2131099759 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_back_progress_bottom_container_max_scale_x_distance:2131099822 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_back_progress_bottom_container_max_scale_y_distance:2131099823 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarSize:2130903045 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_activity_content:2131230772 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_container:2131230773 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar:2131230771 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationLong2:2130903840 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationMedium4:2130903846 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingEmphasizedInterpolator:2130903856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:buttonStyle:2130903190 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:checkboxStyle:2130903218 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:phishing_red:2131034870 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:safe_green:2131034882 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:label_phishing:2131755080 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -49,141 +15,99 @@ Marking id:chipStatus:2131230842 reachable: referenced from C:\Users\AYOUBA\PHIS
 Marking id:tvSource:2131231214 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tvTimestamp:2131231215 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tvUrl:2131231216 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:autoCompleteTextViewStyle:2130903102 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialCardViewStyle:2130903788 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_CardView:2131821568 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:CardView:2131820831 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:motionEasingLinearInterpolator:2130903858 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationShort2:2130903848 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:motionDurationShort1:2130903847 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_card_checked_layer_id:2131231018 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:title_results:2131755205 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarWidgetTheme:2130903052 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:decor_content_parent:2131230870 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_context_bar:2131230780 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking bool:abc_action_bar_embed_tabs:2130968576 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarStyle:2130903047 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:cancel_button:2131230825 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:confirm_button:2131230852 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:nestedScrollable:2130903889 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:cardview_light_background:2131034156 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:cardview_dark_background:2131034155 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorSurface:2130903328 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorOnSurface:2130903306 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_snackbar_background_corner_radius:2131100396 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_day_height:2131100275 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:month_grid:2131231002 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_calendar_month_labeled:2131427408 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_Material3_SideSheet:2131821507 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingStandardDecelerateInterpolator:2130903861 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationMedium2:2130903844 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationShort3:2130903849 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_back_progress_side_container_max_scale_x_distance_shrink:2131099827 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_back_progress_side_container_max_scale_x_distance_grow:2131099826 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_back_progress_side_container_max_scale_y_distance:2131099828 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:side_sheet_accessibility_pane_title:2131755197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialCalendarStyle:2130903782 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:toolbarStyle:2130904215 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_Toolbar:2131821656 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_unhandled_key_listeners:2131231177 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_min_touch_target_size:2131100350 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:bottomSheetStyle:2130903165 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_Design_BottomSheet_Modal:2131821362 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:bottomsheet_action_expand_halfway:2131755048 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_bottom_sheet_peek_height_min:2131099759 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_on_apply_window_listener:2131231170 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_window_insets_animation_callback:2131231178 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_back_progress_bottom_container_max_scale_x_distance:2131099822 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_back_progress_bottom_container_max_scale_y_distance:2131099823 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:autoCompleteTextViewStyle:2130903102 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_AppCompat_AutoCompleteTextView:2131821295 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_auto_complete_simple_item:2131427402 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_exposed_dropdown_menu_popup_elevation:2131100319 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:listPopupWindowStyle:2130903745 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingEmphasizedInterpolator:2130903856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:clear_text_end_icon_content_description:2131755067 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_ic_cancel:2131165377 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarSize:2130903045 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_activity_content:2131230772 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_container:2131230773 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar:2131230771 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationLong2:2130903840 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationMedium4:2130903846 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:save_overlay_view:2131231104 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_child_content_container:2131231019 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_screen_reader_focusable:2131231173 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_accessibility_heading:2131231168 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_state_description:2131231174 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_accessibility_actions:2131231166 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:nestedScrollViewStyle:2130903888 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:clear_text_end_icon_content_description:2131755067 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_ic_cancel:2131165377 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:alert_title:2131755040 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:alert_body:2131755039 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_shield_alert:2131165340 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Theme_AppCompat_Empty:2131821080 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:view_tree_lifecycle_owner:2131231225 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:view_tree_view_model_store_owner:2131231228 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131231227 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231226 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:snackbar_text:2131231137 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:snackbar_action:2131231136 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_snackbar_padding_vertical_2lines:2131099785 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_snackbar_padding_vertical:2131099784 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_AppCompat_AutoCompleteTextView:2131821295 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_auto_complete_simple_item:2131427402 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_exposed_dropdown_menu_popup_elevation:2131100319 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:listPopupWindowStyle:2130903745 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:theme:2130904171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialThemeOverlay:2130903804 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarTheme:2130903051 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionModePopupWindowStyle:2130903066 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_mode_bar_stub:2131230786 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_dropdownitem_icon_width:2131099689 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_dropdownitem_text_padding_left:2131099690 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:api_url_saved:2131755042 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:seekBarStyle:2130903978 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_unhandled_key_event_manager:2131231176 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:visible_removing_fragment_view_tag:2131231230 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_close_enter:2130837507 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_close_exit:2130837508 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_fade_enter:2130837509 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_fade_exit:2130837510 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_open_enter:2130837511 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_open_exit:2130837512 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:pooling_container_listener_holder_tag:2131231083 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:alertDialogStyle:2130903083 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:textColorSearchUrl:2130904150 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:edit_query:2131230901 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_cab_background_top_material:2131165240 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_cab_background_internal_bg:2131165239 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_cab_background_top_mtrl_alpha:2131165241 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_material:2131165275 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_big:2131099707 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_indicator_material:2131165274 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_medium:2131099708 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_small_material:2131165276 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_small:2131099709 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_vector_test:2131165302 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_switch_thumb_material:2131165289 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_seekbar_track_material:2131165284 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorControlActivated:2130903287 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorControlNormal:2130903289 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_list_divider_mtrl_alpha:2131165261 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_dialog_material_background:2131165243 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayEnabled:2130903455 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayColor:2130903454 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayAccentColor:2130903453 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_list_menu_item_layout:2131427344 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionOverflowMenuStyle:2130903074 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorOnSurface:2130903306 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorSurface:2130903328 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:spinnerStyle:2130904023 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:radioButtonStyle:2130903949 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_unhandled_key_listeners:2131231177 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:materialClockStyle:2130903790 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:material_radial_view_group:2131427389 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:month_title:2131231007 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:transition_current_scene:2131231206 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_snackbar_background_corner_radius:2131100396 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:design_fab_stroke_top_outer_color:2131034203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:design_fab_stroke_top_inner_color:2131034202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:design_fab_stroke_end_inner_color:2131034200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:design_fab_stroke_end_outer_color:2131034201 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:checkedTextViewStyle:2130903229 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:spacer:2131231141 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:material_timepicker:2131427393 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_clock_face:2131230980 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_clock_period_toggle:2131230985 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_minute_tv:2131230990 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_hour_tv:2131230987 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_clock_hand:2131230981 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:selection_type:2131231125 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:chipGroupStyle:2130903233 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_ChipGroup:2131821574 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:design_password_eye:2131165316 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:password_toggle_content_description:2131755184 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:material_time_chip:2131427391 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:material_time_input:2131427392 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_label:2131230988 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:visible_removing_fragment_view_tag:2131231230 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:api_url_saved:2131755042 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:fragment_container_view_tag:2131230928 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionModeStyle:2130903070 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarPopupTheme:2130903044 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_action_mode_close_item_material:2131427333 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_mode_close_button:2131230787 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_action_bar_title_item:2131427328 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_title:2131230777 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_subtitle:2131230776 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:seekBarStyle:2130903978 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:switchStyle:2130904071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_CompoundButton_Switch:2131821582 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_switch_thumb_elevation:2131100402 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_action_menu_layout:2131427331 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_action_menu_item_layout:2131427330 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:text_input_error_icon:2131231187 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:text_input_end_icon:2131231186 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:error_icon_content_description:2131755070 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:textinput_suffix_text:2131231194 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:design_text_input_end_icon:2131427372 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_input_text_to_prefix_suffix_padding:2131100220 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_cascading_menu_item_layout:2131427339 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_MaterialCalendar:2131821589 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_content_padding:2131100273 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_day_width:2131100279 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_month_horizontal_padding:2131100293 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_picker_fullscreen:2131427418 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_picker_dialog:2131427417 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_frame:2131231012 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_main_pane:2131231013 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_picker_header_selection_text:2131231024 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_picker_header_toggle:2131231026 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_picker_title_text:2131231030 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:material_ic_calendar_black_24dp:2131165353 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:material_ic_edit_black_24dp:2131165355 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131755169 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_picker_toggle_to_text_input_mode:2131755171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:fullscreen_header:2131230930 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_dialog_background_inset:2131100281 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:exposed_dropdown_menu_content_description:2131755071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_dropdown_arrow:2131165374 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:row_index_key:2131231102 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_indeterminate:2130904045 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_error:2130904044 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:checkboxStyle:2130903218 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_CheckBox:2131821580 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165364 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:isMaterial3Theme:2130903616 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -195,118 +119,63 @@ Marking id:indeterminate:2131230954 reachable: referenced from C:\Users\AYOUBA\P
 Marking string:mtrl_checkbox_state_description_checked:2131755130 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_checkbox_state_description_unchecked:2131755132 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_checkbox_state_description_indeterminate:2131755131 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorControlActivated:2130903287 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:colorError:2130903290 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:androidx_startup:2131755041 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:state_dragged:2130904043 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorControlHighlight:2130903288 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:mtrl_fab_transformation_sheet_expand_spec:2130837537 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:mtrl_fab_transformation_sheet_collapse_spec:2130837536 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:coordinatorLayoutStyle:2130903370 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:design_navigation_menu_item:2131427371 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_navigation_icon_size:2131099769 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:design_menu_item_text:2131230877 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:design_menu_item_action_area_stub:2131230876 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:navigation_empty_icon:2131165399 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:split_action_bar:2131231144 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:panelMenuListTheme:2130903912 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Theme_AppCompat_CompactMenu:2131821068 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_expanded_menu_layout:2131427341 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:abc_decor_view_status_guard_light:2131034118 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:abc_decor_view_status_guard:2131034117 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:imageButtonStyle:2130903600 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_dialog_title_material:2131427340 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_screen_toolbar:2131427351 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_screen_simple_overlay_action_mode:2131427350 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_screen_simple:2131427349 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:title:2131231196 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:material_value_index:2131230997 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_cascading_menus_min_smallest_width:2131099670 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:save_overlay_view:2131231104 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:recyclerViewStyle:2130903958 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:fastscroll_default_thickness:2131099794 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:fastscroll_minimum_range:2131099796 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:fastscroll_margin:2131099795 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:is_pooling_container_tag:2131230958 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:pooling_container_listener_holder_tag:2131231083 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:design_text_input_start_icon:2131427373 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:textinput_prefix_text:2131231193 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:view_tree_lifecycle_owner:2131231225 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:view_tree_view_model_store_owner:2131231228 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:view_tree_saved_state_registry_owner:2131231227 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:accessibility_action_clickable_span:2131230735 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_accessibility_clickable_spans:2131231167 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_calendar_day_of_week:2131427404 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_picker_day_of_week_column_header:2131755146 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_Design_TextInputEditText:2131821369 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:dialogTheme:2130903418 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:parentPanel:2131231074 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:topPanel:2131231202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:contentPanel:2131230856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:buttonPanel:2131230822 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:customPanel:2131230865 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:scrollView:2131231111 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:alertDialogCenterButtons:2130903082 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:title_template:2131231198 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:alertTitle:2131230793 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:textSpacerNoButtons:2131231182 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:titleDividerNoCustom:2131231197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:textSpacerNoTitle:2131231183 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:scrollIndicatorUp:2131231110 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:scrollIndicatorDown:2131231109 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:alertDialogTheme:2130903084 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:support_simple_spinner_dropdown_item:2131427437 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionOverflowButtonStyle:2130903073 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:searchViewStyle:2130903977 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_search_view:2131427353 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_src_text:2131231121 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_edit_frame:2131231117 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_plate:2131231120 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:submit_area:2131231162 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_button:2131231115 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_go_btn:2131231118 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_close_btn:2131231116 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_voice_btn:2131231122 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_mag_icon:2131231119 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:abc_searchview_description_search:2131755029 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_search_dropdown_item_icons_2line:2131427352 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_search_view_preferred_height:2131099702 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_search_view_preferred_width:2131099703 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_popup_menu_item_layout:2131427347 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_textinput_caption_translate_y:2131099791 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationShort4:2130903850 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903855 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_font_1_3_padding_horizontal:2131100218 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_default_padding_top:2131100217 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_font_1_3_padding_top:2131100219 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:activity_home:2131427356 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btnScan:2131230820 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btnViewAll:2131230821 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:cardAccessibilityPerm:2131230826 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:cardNotificationPerm:2131230828 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:chipAccess:2131230840 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:chipNotif:2131230841 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:etUrl:2131230909 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:progressBar:2131231087 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:recyclerRecent:2131231093 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:switchService:2131231164 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:toolbar:2131231200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tvNoHistory:2131231213 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking menu:menu_home:2131558400 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_settings:2131230788 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:dialog_api_url_title:2131755068 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_clear_history:2131230778 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:history_cleared:2131755076 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_notif_on:2131755203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_notif_off:2131755202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_access_on:2131755200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_access_off:2131755199 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:chipStyle:2130903248 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_Chip_Action:2131821570 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:checkedTextViewStyle:2130903229 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationMedium1:2130903843 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingEmphasizedAccelerateInterpolator:2130903854 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking integer:material_motion_duration_long_1:2131296294 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:text_input_error_icon:2131231187 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:text_input_end_icon:2131231186 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:error_icon_content_description:2131755070 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:textinput_suffix_text:2131231194 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:design_text_input_end_icon:2131427372 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_input_text_to_prefix_suffix_padding:2131100220 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:spacer:2131231141 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:material_timepicker:2131427393 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_clock_face:2131230980 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_clock_period_toggle:2131230985 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_minute_tv:2131230990 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_hour_tv:2131230987 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_clock_hand:2131230981 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:selection_type:2131231125 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:chipGroupStyle:2130903233 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_ChipGroup:2131821574 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:material_time_chip:2131427391 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:material_time_input:2131427392 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_label:2131230988 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarStyle:2130903047 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_action_bar_up_description:2131755009 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:activity_results:2131427357 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:fabClear:2131230913 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:recyclerResults:2131231094 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tvEmpty:2131231212 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarTheme:2130903051 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionModePopupWindowStyle:2130903066 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_mode_bar_stub:2131230786 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:exposed_dropdown_menu_content_description:2131755071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_dropdown_arrow:2131165374 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_chip_close_icon_content_description:2131755133 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:theme:2130904171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialThemeOverlay:2130903804 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:alert_title:2131755040 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:alert_body:2131755039 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_shield_alert:2131165340 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:fragment_container_view_tag:2131230928 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:support_simple_spinner_dropdown_item:2131427437 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionModeStyle:2130903070 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarPopupTheme:2130903044 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_action_mode_close_item_material:2131427333 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_mode_close_button:2131230787 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_action_bar_title_item:2131427328 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_title:2131230777 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_subtitle:2131230776 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:switchStyle:2130904071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_CompoundButton_Switch:2131821582 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_switch_thumb_elevation:2131100402 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:title_results:2131755205 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarWidgetTheme:2130903052 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:decor_content_parent:2131230870 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_context_bar:2131230780 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking bool:abc_action_bar_embed_tabs:2130968576 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_action_menu_layout:2131427331 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_action_menu_item_layout:2131427330 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:accessibility_custom_action_0:2131230736 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:accessibility_custom_action_1:2131230737 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:accessibility_custom_action_2:2131230748 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -339,20 +208,123 @@ Marking id:accessibility_custom_action_28:2131230757 reachable: referenced from 
 Marking id:accessibility_custom_action_29:2131230758 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:accessibility_custom_action_30:2131230760 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:accessibility_custom_action_31:2131230761 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_unhandled_key_event_manager:2131231176 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_accessibility_pane_title:2131231169 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_on_receive_content_mime_types:2131231172 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_on_receive_content_listener:2131231171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:design_text_input_start_icon:2131427373 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:textinput_prefix_text:2131231193 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_cascading_menu_item_layout:2131427339 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_MaterialCalendar:2131821589 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_content_padding:2131100273 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_day_width:2131100279 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_month_horizontal_padding:2131100293 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_picker_fullscreen:2131427418 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_picker_dialog:2131427417 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_frame:2131231012 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_main_pane:2131231013 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_picker_header_selection_text:2131231024 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_picker_header_toggle:2131231026 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_picker_title_text:2131231030 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:material_ic_calendar_black_24dp:2131165353 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:material_ic_edit_black_24dp:2131165355 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131755169 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_picker_toggle_to_text_input_mode:2131755171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:fullscreen_header:2131230930 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_dialog_background_inset:2131100281 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:state_dragged:2130904043 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorControlHighlight:2130903288 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:mtrl_fab_transformation_sheet_expand_spec:2130837537 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:mtrl_fab_transformation_sheet_collapse_spec:2130837536 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:coordinatorLayoutStyle:2130903370 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_textinput_caption_translate_y:2131099791 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationShort4:2130903850 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903855 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_font_1_3_padding_horizontal:2131100218 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_default_padding_top:2131100217 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_font_1_3_padding_top:2131100219 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:abc_capital_on:2131755015 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:abc_capital_off:2131755014 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:design_navigation_menu_item:2131427371 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_navigation_icon_size:2131099769 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:design_menu_item_text:2131230877 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:design_menu_item_action_area_stub:2131230876 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:navigation_empty_icon:2131165399 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:split_action_bar:2131231144 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_internal_children_alpha_tag:2131231020 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:imageButtonStyle:2130903600 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:material_value_index:2131230997 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_cascading_menus_min_smallest_width:2131099670 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:recyclerViewStyle:2130903958 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:fastscroll_default_thickness:2131099794 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:fastscroll_minimum_range:2131099796 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:fastscroll_margin:2131099795 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:is_pooling_container_tag:2131230958 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:accessibility_action_clickable_span:2131230735 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_accessibility_clickable_spans:2131231167 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_calendar_day_of_week:2131427404 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_picker_day_of_week_column_header:2131755146 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_Design_TextInputEditText:2131821369 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionOverflowButtonStyle:2130903073 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:searchViewStyle:2130903977 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_search_view:2131427353 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_src_text:2131231121 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_edit_frame:2131231117 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_plate:2131231120 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:submit_area:2131231162 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_button:2131231115 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_go_btn:2131231118 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_close_btn:2131231116 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_voice_btn:2131231122 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:search_mag_icon:2131231119 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:abc_searchview_description_search:2131755029 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_search_dropdown_item_icons_2line:2131427352 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_search_view_preferred_height:2131099702 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_search_view_preferred_width:2131099703 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_popup_menu_item_layout:2131427347 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:dropDownListViewStyle:2130903445 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:activity_home:2131427356 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btnScan:2131230820 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btnViewAll:2131230821 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:cardAccessibilityPerm:2131230826 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:cardNotificationPerm:2131230828 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:chipAccess:2131230840 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:chipNotif:2131230841 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:etUrl:2131230909 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:progressBar:2131231087 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:recyclerRecent:2131231093 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:switchService:2131231164 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:toolbar:2131231200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tvNoHistory:2131231213 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking menu:menu_home:2131558400 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_settings:2131230788 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:dialog_api_url_title:2131755068 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_clear_history:2131230778 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:history_cleared:2131755076 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_notif_on:2131755203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_notif_off:2131755202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_access_on:2131755200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_access_off:2131755199 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:topPanel:2131231202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:buttonPanel:2131230822 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:contentPanel:2131230856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:customPanel:2131230865 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:androidx_startup:2131755041 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:activity_results:2131427357 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:fabClear:2131230913 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:recyclerResults:2131231094 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tvEmpty:2131231212 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_RadioButton:2131821581 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:textAppearanceLineHeightEnabled:2130904130 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:result_phishing:2131755189 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:result_safe:2131755190 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:result_title_phishing:2131755191 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:result_title_safe:2131755192 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorPrimary:2130903315 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorPrimaryVariant:2130903322 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:isMaterialTheme:2130903617 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:toolbarNavigationButtonStyle:2130904214 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131165298 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_ab_share_pack_mtrl_alpha:2131165224 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131165300 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_cab_background_internal_bg:2131165239 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_menu_hardkey_panel_mtrl_mult:2131165272 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_popup_background_mtrl_mult:2131165273 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_tab_indicator_material:2131165291 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -370,6 +342,7 @@ Marking drawable:abc_ic_menu_selectall_mtrl_alpha:2131165254 reachable: referenc
 Marking drawable:abc_ic_menu_paste_mtrl_am_alpha:2131165253 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_activated_mtrl_alpha:2131165297 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_search_activated_mtrl_alpha:2131165299 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_cab_background_top_mtrl_alpha:2131165241 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_text_cursor_material:2131165293 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_text_select_handle_left_mtrl:2131165294 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_text_select_handle_middle_mtrl:2131165295 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -381,6 +354,7 @@ Marking drawable:abc_edit_text_material:2131165244 reachable: referenced from C:
 Marking color:abc_tint_edittext:2131034133 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_switch_track_mtrl_alpha:2131165290 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_switch_track:2131034136 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_switch_thumb_material:2131165289 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:colorSwitchThumbNormal:2130903338 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_btn_default_mtrl_shape:2131165232 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_btn_borderless_material:2131165226 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -388,37 +362,22 @@ Marking drawable:abc_btn_colored_material:2131165231 reachable: referenced from 
 Marking attr:colorAccent:2130903283 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_spinner_mtrl_am_alpha:2131165285 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_spinner_textfield_background_material:2131165286 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorControlNormal:2130903289 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_default:2131034132 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_btn_checkable:2131034131 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_seekbar_thumb_material:2131165282 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_seek_thumb:2131034134 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_spinner:2131034135 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationMedium1:2130903843 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingEmphasizedAccelerateInterpolator:2130903854 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking integer:material_motion_duration_long_1:2131296294 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:chipStyle:2130903248 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_Chip_Action:2131821570 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:appBarLayoutStyle:2130903094 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_Design_AppBarLayout:2131821360 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking integer:app_bar_elevation_anim_duration:2131296258 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:motionEasingStandardInterpolator:2130903862 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_appbar_elevation:2131099744 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:state_liftable:2130904046 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_lifted:2130904047 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_collapsible:2130904042 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_collapsed:2130904041 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayEnabled:2130903455 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayColor:2130903454 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayAccentColor:2130903453 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_internal_children_alpha_tag:2131231020 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:buttonStyle:2130903190 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_chip_close_icon_content_description:2131755133 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_close_enter:2130837507 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_close_exit:2130837508 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_fade_enter:2130837509 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_fade_exit:2130837510 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_open_enter:2130837511 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_open_exit:2130837512 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:listMenuViewStyle:2130903744 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:dropDownListViewStyle:2130903445 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_prepend_shortcut_label:2131755025 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_menu_meta_shortcut_label:2131755021 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_menu_ctrl_shortcut_label:2131755017 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -429,6 +388,7 @@ Marking string:abc_menu_function_shortcut_label:2131755020 reachable: referenced
 Marking string:abc_menu_space_shortcut_label:2131755023 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_menu_enter_shortcut_label:2131755019 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_menu_delete_shortcut_label:2131755018 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:title:2131231196 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:shortcut:2131231128 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:submenuarrow:2131231161 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:group_divider:2131230936 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -441,11 +401,24 @@ Marking style:Widget_Design_FloatingActionButton:2131821364 reachable: reference
 Marking dimen:mtrl_fab_min_touch_target:2131100339 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_fab_size_normal:2131099764 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_fab_size_mini:2131099763 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:design_fab_stroke_top_outer_color:2131034203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:design_fab_stroke_top_inner_color:2131034202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:design_fab_stroke_end_inner_color:2131034200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:design_fab_stroke_end_outer_color:2131034201 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:panelMenuListTheme:2130903912 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Theme_AppCompat_CompactMenu:2131821068 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_expanded_menu_layout:2131427341 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:abc_decor_view_status_guard_light:2131034118 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking color:abc_decor_view_status_guard:2131034117 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_dialog_title_material:2131427340 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_screen_toolbar:2131427351 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_screen_simple_overlay_action_mode:2131427350 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_screen_simple:2131427349 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Theme_AppCompat_Light:2131821081 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:materialButtonStyle:2130903768 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_Button:2131821556 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:abc_capital_on:2131755015 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:abc_capital_off:2131755014 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:design_password_eye:2131165316 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:password_toggle_content_description:2131755184 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_day:2131427403 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:alpha:2130903086 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:lStar:2130903651 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -484,12 +457,26 @@ Marking string:mtrl_picker_toggle_to_day_selection:2131755170 reachable: referen
 Marking style:Widget_MaterialComponents_TimePicker_Clock:2131821648 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:material_clock_hand_stroke_width:2131100197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:material_clock_hand_center_dot_radius:2131100195 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Theme_AppCompat_Empty:2131821080 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231226 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorPrimary:2130903315 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorPrimaryVariant:2130903322 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:isMaterialTheme:2130903617 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_carousel_debug_keyline_width:2131099887 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:result_phishing:2131755189 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:result_safe:2131755190 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:result_title_phishing:2131755191 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:result_title_safe:2131755192 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:dialogTheme:2130903418 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:parentPanel:2131231074 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:scrollView:2131231111 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:alertDialogCenterButtons:2130903082 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:title_template:2131231198 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:alertTitle:2131230793 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:textSpacerNoButtons:2131231182 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:titleDividerNoCustom:2131231197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:textSpacerNoTitle:2131231183 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:scrollIndicatorUp:2131231110 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:scrollIndicatorDown:2131231109 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:alertDialogTheme:2130903084 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_dropdownitem_icon_width:2131099689 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_dropdownitem_text_padding_left:2131099690 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:textColorSearchUrl:2130904150 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:transition_current_scene:2131231206 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_vertical:2131427411 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_horizontal:2131427406 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:mtrl_calendar_navigation_height:2131100296 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -506,6 +493,8 @@ Marking id:month_navigation_fragment_toggle:2131231004 reachable: referenced fro
 Marking id:month_navigation_previous:2131231006 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:month_navigation_next:2131231005 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_calendar_day_selector_frame:2131231010 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:special_effects_controller_view_tag:2131231142 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:ratingBarStyle:2130903951 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_navigate_to_current_year_description:2131755152 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_navigate_to_year_description:2131755153 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_year:2131427412 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -518,6 +507,17 @@ Marking dimen:material_time_picker_minimum_screen_height:2131100224 reachable: r
 Marking dimen:material_time_picker_minimum_screen_width:2131100225 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:material_clock_size:2131100203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:circle_center:2131230844 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_cab_background_top_material:2131165240 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_material:2131165275 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_big:2131099707 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_indicator_material:2131165274 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_medium:2131099708 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_small_material:2131165276 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_small:2131099709 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_vector_test:2131165302 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_seekbar_track_material:2131165284 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_list_divider_mtrl_alpha:2131165261 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_dialog_material_background:2131165243 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:report_drawn:2131231095 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
@@ -530,8 +530,8 @@ android:fade:transitionAlpha
 android.graphics.drawable.ColorStateL...
 android.speech.extra.RESULTS_PENDINGI...
 SOURCE_AUTOFILL
-$
 java.lang.CharSequence
+$
 0
 1
 ACTION_PRESS_AND_HOLD
@@ -541,8 +541,8 @@ sender
 KotlinExtensions.kt
 removeItemAt
 setNextSelectedPositionInt
-bottomRight
 emoji2.text.DefaultEmojiConfig
+bottomRight
 BEGIN_OBJECT
 H
 record.loggerName
@@ -558,8 +558,8 @@ a
 b
 address
 c
-user_query
 SUCCESS
+user_query
 ACTION_CLEAR_ACCESSIBILITY_FOCUS
 Infinity
 e
@@ -590,8 +590,8 @@ android:style
 ACTION_SCROLL_FORWARD
 unchecked
 H2_PRIOR_KNOWLEDGE
-TLS_PSK_WITH_AES_128_CBC_SHA
 gps
+TLS_PSK_WITH_AES_128_CBC_SHA
 list
 UNSET_PRIMARY_NAV
 pref_service_enabled
@@ -610,9 +610,9 @@ expanded
 unsupported
 http2Connection
 provider
-kotlinx.coroutines.main.delay
 NaN
 requestRelaunchActivity
+kotlinx.coroutines.main.delay
 _delayed
 Age
 headers
@@ -702,8 +702,8 @@ supportedCipherSuites
 mStableInsets
 _cur
 READ
-condition
 android.car.EXTENSIONS
+condition
 deferredTrailers
 200
 chipIconVisible
@@ -740,8 +740,8 @@ setValue
 UNKNOWN
 initialExtras
 accessibility
-endColor
 android:visibility:parent
+endColor
 quic
 onBackCancelled
 hostname
@@ -827,8 +827,8 @@ androidx.content.action.LOAD_EMOJI_FONT
 meizu
 TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
 SeekBar
-rotation
 EXTRA_SKIP_FILE_OPERATION
+rotation
 INTERNAL_ERROR
 pair
 endY
@@ -851,8 +851,8 @@ put
 ACTION_PAGE_LEFT
 modelClass.constructors
 SSL_RSA_WITH_DES_CBC_SHA
-in_progress
 %2e%2e
+in_progress
 lruEntries.values
 TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
 font_ttc_index
@@ -875,8 +875,8 @@ PrivateApi
 unknown
 proxySelector
 INITIALIZED
-REMOVE
 producerIndex
+REMOVE
 android:changeBounds:bounds
 SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
 SETTLING
@@ -898,8 +898,8 @@ DefaultDateTypeAdapter
 RESULT_INSTALL_SUCCESS
 uimode
 KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
-AppLocalesStorageHelper
 checked
+AppLocalesStorageHelper
 loggerName
 group
 java.lang.Cloneable
@@ -950,8 +950,8 @@ Button
 record
 kotlin.reflect.jvm.internal.Reflectio...
 tlsVersionsIntersection
-android:target_req_state
 addObserver
+android:target_req_state
 ID1ID2
 TwilightManager
 ON_ANY
@@ -1008,11 +1008,11 @@ ACTION_SET_SELECTION
 Barrier
 androidx.view.accessibility.Accessibi...
 SPDY_3
-duration
 kotlin.collections.Map
+duration
 ListPopupWindow
-alpha
 ProfileInstaller
+alpha
 LOWER_CASE_WITH_DOTS
 java.lang.Boolean
 TLS
@@ -1052,6 +1052,7 @@ interval
 connectionName
 snapshot
 arch_disk_io_
+status
 www.
 sun.misc.Unsafe
 server
@@ -1132,9 +1133,9 @@ authParams
 bytes
 Completed
 callback
+mOnKeyListener
 socket
 writer
-mOnKeyListener
 ACTION_PASTE
 method.declaringClass
 android.graphics.FontFamily
@@ -1176,8 +1177,8 @@ kotlin.Function
 long
 boundaryByteString
 ACTION_PAGE_DOWN
-classes_to_restore
 tlsVersions
+classes_to_restore
 namesAndValues
 supports
 clipBounds
@@ -1205,8 +1206,8 @@ ResourcesCompat
 TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
 PADDED
 sun.security.ssl.SSLContextImpl
-android.resource
 TypefaceCompatApi21Impl
+android.resource
 collection
 BOOLEAN
 minLines
@@ -1222,8 +1223,8 @@ StartActivityForResult
 BottomSheetBehavior
 onBackPressedCallback
 TLS_RSA_WITH_AES_128_CBC_SHA
-TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
 setClipToScreenEnabled
+TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
 TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
 fileChannel
 registry
@@ -1308,9 +1309,9 @@ localCertificates
 android.speech.extra.PROMPT
 bottom
 connectionPool
-0123456789abcdef
-failed
 kotlin.collections.MutableList
+failed
+0123456789abcdef
 sequence
 DATA
 androidx.core.view.inputmethod.Editor...
@@ -1322,8 +1323,8 @@ Basic
 ACTION_CUT
 writeTimeout
 org.eclipse.jetty.alpn.ALPN$Provider
-platform
 kotlin.Byte
+platform
 requestBodyStart
 network
 RequestPermissions
@@ -1369,9 +1370,9 @@ BC
 publicsuffixes.gz
 executorService
 android.settings.ACCESSIBILITY_SETTINGS
+manual
 Chip
 android.intent.extra.PROCESS_TEXT_REA...
-manual
 fillColor
 DIRTY
 http/1.1
@@ -1383,8 +1384,8 @@ TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
 EmojiCompat.EmojiCompatInitializer.run
 RESULT_PARSE_EXCEPTION
 TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
-androidx.lifecycle.BundlableSavedStat...
 GridLayoutManager
+androidx.lifecycle.BundlableSavedStat...
 this$0
 hourOfDay
 Loaders:
@@ -1397,8 +1398,8 @@ referent
 androidx.profileinstaller.action.SKIP...
 TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY130...
 startColor
-addSuppressed
 okhttp.TaskRunner
+addSuppressed
 decelerate
 CSLCompat
 ACTION_SET_PROGRESS
@@ -1443,8 +1444,8 @@ username
 centerY
 centerX
 setExclusiveCheckable
-indeterminate
 UNDEFINED
+indeterminate
 ACTION_CONTEXT_CLICK
 TLS_ECDH_RSA_WITH_NULL_SHA
 dexopt/baseline.prof
@@ -1485,15 +1486,15 @@ gzip
 sslSocket
 requestHeadersStart
 locales
-NavUtils
 runningWorkers
+NavUtils
 DESTROYED
 androidx.core.app.extra.COMPAT_TEMPLATE
 MD5
 Theme.MaterialComponents
 referer
-UTC
 kotlin.collections.Collection
+UTC
 getAlpnSelectedProtocol
 body
 ConstraintLayout
@@ -1511,11 +1512,11 @@ HTTP_1_1
 OpenSSLSocketImpl
 newInstance
 MenuItemWrapper
-unit
 java.util.List
+unit
 kotlin.Int
-boundary
 android.view.
+boundary
 okio.Okio
 fieldName
 handleLifecycleEvent
@@ -1533,8 +1534,8 @@ Host
 minute
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 0.0
-android:user_visible_hint
 application
+android:user_visible_hint
 layout_inflater
 reason
 auth.password
@@ -1545,21 +1546,21 @@ SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
 TLS_KRB5_WITH_DES_CBC_MD5
 emojiCompat
 QUIC
-proxies
 ERROR
+proxies
 cache
 Trailers
 Expires
-REMOVE_FROZEN
 TaskStackBuilder
+REMOVE_FROZEN
 succeeded
 .tmp
 SSL_RSA_WITH_3DES_EDE_CBC_SHA
 PathParser
 connectionCode
 4.12.0
-androidx.savedstate.Restarter
 SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+androidx.savedstate.Restarter
 DROP_SHADER_CACHE
 cookies
 kotlin.collections.ListIterator
@@ -1569,8 +1570,8 @@ TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
 phishing_alerts
 :status
 SSL_RSA_WITH_RC4_128_SHA
-outBundle
 TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+outBundle
 TLS_ECDH_RSA_WITH_RC4_128_SHA
 ACTION_SELECT
 BLOCK_INACCESSIBLE
@@ -1614,16 +1615,16 @@ TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
 getDescriptor
 string
 bool
-TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
 android
+TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
 java.lang.module.ModuleDescriptor
 encodedValues
 VISIBLE
 native_instance
 androidx.view.accessibility.Accessibi...
 Tiramisu
-androidx.appcompat.app.AppLocalesMeta...
 android:view_state
+androidx.appcompat.app.AppLocalesMeta...
 Dispatchers.Main
 SOURCE_CLIPBOARD
 XA
@@ -1663,8 +1664,8 @@ pattern
 onException
 networkResponse
 TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
-okhttp3.
 android.permission.ACCESS_FINE_LOCATION
+okhttp3.
 UTF_8
 TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_...
 mContentInsets
@@ -1695,8 +1696,8 @@ java.lang.Byte
 updateEnabledCallbacks
 CANCELLED
 PUSH_PROMISE
-CLOSED_EMPTY
 kotlin.collections.Iterator
+CLOSED_EMPTY
 res/
 rebase
 END_STREAM
@@ -1729,8 +1730,8 @@ setAlpnProtocols
 androidx.lifecycle.LifecycleDispatche...
 getSuppressed
 ACTION_UNKNOWN
-defaultLifecycleObserver
 proxiesOrNull
+defaultLifecycleObserver
 FLAG_CONVERT_TO_PLAIN_TEXT
 httponly
 SOURCE_PROCESS_TEXT
@@ -1742,8 +1743,8 @@ traceCounter
 proxy
 ar
 canceled
-kotlinx.coroutines.scheduler.resoluti...
 kotlin.Unit
+kotlinx.coroutines.scheduler.resoluti...
 web_search
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA
 getType
@@ -1785,8 +1786,8 @@ journal.bkp
 setTouchModal
 cleanedPeerCertificatesFn
 connectionReleased
-observe
 TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+observe
 ACTION_DRAG_CANCEL
 androidx.view.accessibility.Accessibi...
 android.bigText
@@ -1816,8 +1817,8 @@ origin
 android.speech.extra.LANGUAGE
 h2
 MaterialButton
-timeout
 content
+timeout
 random
 DATE_SELECTOR_KEY
 TLS_ECDH_ECDSA_WITH_RC4_128_SHA
@@ -1846,8 +1847,8 @@ https
 id
 dispatcher
 it
-AppCompatSpinner
 UNDECIDED
+AppCompatSpinner
 SET_PRIMARY_NAV
 kotlin.jvm.internal.
 charset
@@ -1871,16 +1872,16 @@ android.speech.action.RECOGNIZE_SPEECH
 suffix
 encodedNames
 SELECTOR_TOGGLE_TAG
-tintMode
 TypefaceCompatBaseImpl
+tintMode
 second
 _size
 that
-limit
 TLS_NULL_WITH_NULL_NULL
+limit
 android.resource://
-strokeColor
 TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
+strokeColor
 kotlin.Number
 NULL
 level
@@ -1910,6 +1911,7 @@ ACTION_SCROLL_LEFT
 kotlin.Comparable
 HTTP/1.
 backend
+ok
 server_max_window_bits
 baseKey
 android.app.ActivityThread
@@ -1924,8 +1926,8 @@ CLEAN
 thumbPos
 AutoCompleteTextView
 handler
-suggest_icon_1
 metadata
+suggest_icon_1
 suggest_icon_2
 TLS_DH_anon_WITH_AES_256_CBC_SHA256
 vary
@@ -1975,8 +1977,8 @@ ACTION_EXPAND
 isRecord
 encodedName
 WRITE_SKIP_FILE
-store
 kotlin.Float
+store
 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
 closer
 te
@@ -1993,8 +1995,8 @@ NEGATIVE_BUTTON_TEXT_KEY
 up
 app_data
 android:changeBounds:windowX
-android:changeBounds:windowY
 Dispatchers.Default
+android:changeBounds:windowY
 TLS_AES_128_GCM_SHA256
 androidx.appcompat.app.AppCompatDeleg...
 sink
@@ -2006,8 +2008,8 @@ ffff0000
 failure
 NOT_IN_STACK
 viewModel
-android.graphics.Insets
 removeObserver
+android.graphics.Insets
 ON_DESTROY
 destination
 TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
@@ -2100,8 +2102,8 @@ Pragma
 controlState
 2.10.1
 TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA
-cachedRequest
 Active
+cachedRequest
 ActivityRecreator
 kotlin.collections.Iterable
 Both
@@ -2117,11 +2119,11 @@ mAccessibilityDelegate
 kotlin.collections.Set
 TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
 androidx.activity.result.contract.ext...
-ISIZE
 factory
+ISIZE
 ConstraintOverride
-LONG_OR_DOUBLE
 java.util.Iterator
+LONG_OR_DOUBLE
 confidence
 ON_STOP
 kotlin.CharSequence
@@ -2396,6 +2398,15 @@ Marking id:textinput_prefix_text:2131231193 used because it matches string pool 
 Marking id:textinput_suffix_text:2131231194 used because it matches string pool constant text
 Marking id:TOP_END:2131230732 used because it matches string pool constant TOP
 Marking id:TOP_START:2131230733 used because it matches string pool constant TOP
+Marking attr:statusBarBackground:2130904049 used because it matches string pool constant status
+Marking attr:statusBarForeground:2130904050 used because it matches string pool constant status
+Marking attr:statusBarScrim:2130904051 used because it matches string pool constant status
+Marking integer:status_bar_notification_info_maxnum:2131296323 used because it matches string pool constant status
+Marking string:status_access_off:2131755199 used because it matches string pool constant status
+Marking string:status_access_on:2131755200 used because it matches string pool constant status
+Marking string:status_bar_notification_info_overflow:2131755201 used because it matches string pool constant status
+Marking string:status_notif_off:2131755202 used because it matches string pool constant status
+Marking string:status_notif_on:2131755203 used because it matches string pool constant status
 Marking id:skipCollapsed:2131231133 used because it matches string pool constant skip
 Marking id:skipped:2131231134 used because it matches string pool constant skip
 Marking attr:menu:2130903819 used because it matches string pool constant menu
@@ -4325,9 +4336,9 @@ Marking id:fragment_container_view_tag:2131230928 used because it matches string
 @attr/state_liftable : reachable=true
 @attr/state_lifted : reachable=true
 @attr/state_with_icon : reachable=true
-@attr/statusBarBackground : reachable=false
-@attr/statusBarForeground : reachable=false
-@attr/statusBarScrim : reachable=false
+@attr/statusBarBackground : reachable=true
+@attr/statusBarForeground : reachable=true
+@attr/statusBarScrim : reachable=true
 @attr/strokeColor : reachable=true
 @attr/strokeWidth : reachable=true
 @attr/subMenuArrow : reachable=false
@@ -8270,7 +8281,7 @@ Marking id:fragment_container_view_tag:2131230928 used because it matches string
 @integer/mtrl_view_invisible : reachable=false
 @integer/mtrl_view_visible : reachable=false
 @integer/show_password_duration : reachable=false
-@integer/status_bar_notification_info_maxnum : reachable=false
+@integer/status_bar_notification_info_maxnum : reachable=true
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0 : reachable=false
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1 : reachable=false
 @interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0 : reachable=false
@@ -9040,7 +9051,7 @@ Marking id:fragment_container_view_tag:2131230928 used because it matches string
 @string/side_sheet_behavior : reachable=false
 @string/status_access_off : reachable=true
 @string/status_access_on : reachable=true
-@string/status_bar_notification_info_overflow : reachable=false
+@string/status_bar_notification_info_overflow : reachable=true
 @string/status_notif_off : reachable=true
 @string/status_notif_on : reachable=true
 @string/title_home : reachable=false
@@ -18164,6 +18175,9 @@ The root reachable resources are:
  attr:state_liftable:2130904046
  attr:state_lifted:2130904047
  attr:state_with_icon:2130904048
+ attr:statusBarBackground:2130904049
+ attr:statusBarForeground:2130904050
+ attr:statusBarScrim:2130904051
  attr:strokeColor:2130904052
  attr:strokeWidth:2130904053
  attr:suffixText:2130904065
@@ -18744,6 +18758,7 @@ The root reachable resources are:
  integer:bottom_sheet_slide_duration:2131296259
  integer:material_motion_duration_long_1:2131296294
  integer:mtrl_calendar_year_selector_span:2131296306
+ integer:status_bar_notification_info_maxnum:2131296323
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
  layout:abc_action_menu_layout:2131427331
@@ -18867,6 +18882,7 @@ The root reachable resources are:
  string:side_sheet_accessibility_pane_title:2131755197
  string:status_access_off:2131755199
  string:status_access_on:2131755200
+ string:status_bar_notification_info_overflow:2131755201
  string:status_notif_off:2131755202
  string:status_notif_on:2131755203
  string:title_results:2131755205
@@ -20487,7 +20503,6 @@ Unused resources are:
  integer:mtrl_switch_track_viewport_width:2131296317
  integer:mtrl_view_gone:2131296319
  integer:mtrl_view_visible:2131296321
- integer:status_bar_notification_info_maxnum:2131296323
  interpolator:m3_sys_motion_easing_emphasized:2131361799
  interpolator:m3_sys_motion_easing_emphasized_accelerate:2131361800
  interpolator:m3_sys_motion_easing_emphasized_decelerate:2131361801
@@ -20611,7 +20626,6 @@ Unused resources are:
  string:searchview_clear_text_content_description:2131755195
  string:searchview_navigation_content_description:2131755196
  string:side_sheet_behavior:2131755198
- string:status_bar_notification_info_overflow:2131755201
  style:Animation_AppCompat_Tooltip:2131820548
  style:Animation_Design_BottomSheetDialog:2131820549
  style:Animation_Material3_BottomSheetDialog:2131820550

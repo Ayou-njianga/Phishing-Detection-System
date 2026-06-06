@@ -8,6 +8,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.phishingdetector.network.ApiClient;
+import com.phishingdetector.network.ApiResponse;
 import com.phishingdetector.network.DetectionRequest;
 import com.phishingdetector.network.DetectionResponse;
 import com.phishingdetector.network.DetectionResult;
@@ -49,18 +50,19 @@ public class HomeViewModel extends AndroidViewModel {
         ApiClient.getInstance(getApplication())
                 .getService()
                 .detectUrl(request)
-                .enqueue(new Callback<DetectionResponse>() {
+                .enqueue(new Callback<ApiResponse>() {
 
                     @Override
-                    public void onResponse(Call<DetectionResponse> call,
-                                           Response<DetectionResponse> response) {
-                        if (response.isSuccessful() && response.body() != null) {
-                            DetectionResponse body = response.body();
-                            scanResult.postValue(body);
+                    public void onResponse(Call<ApiResponse> call,
+                                           Response<ApiResponse> response) {
+                        if (response.isSuccessful()
+                                && response.body() != null
+                                && response.body().isSuccess()) {
+                            DetectionResponse data = response.body().getData();
+                            scanResult.postValue(data);
                             scanState.postValue(ScanState.SUCCESS);
-
                             PreferenceManager.getInstance(getApplication())
-                                    .addToHistory(new DetectionResult(body));
+                                    .addToHistory(new DetectionResult(data));
                             refreshHistory();
                         } else {
                             errorMsg.postValue("Server error: HTTP " + response.code());
@@ -69,7 +71,7 @@ public class HomeViewModel extends AndroidViewModel {
                     }
 
                     @Override
-                    public void onFailure(Call<DetectionResponse> call, Throwable t) {
+                    public void onFailure(Call<ApiResponse> call, Throwable t) {
                         errorMsg.postValue("Network error: " + t.getMessage());
                         scanState.postValue(ScanState.ERROR);
                     }

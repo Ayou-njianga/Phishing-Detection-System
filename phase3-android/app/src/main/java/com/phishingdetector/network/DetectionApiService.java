@@ -8,7 +8,7 @@ import retrofit2.http.POST;
 public interface DetectionApiService {
 
     @POST("api/v1/detect")
-    Call<DetectionResponse> detectUrl(@Body DetectionRequest request);
+    Call<ApiResponse> detectUrl(@Body DetectionRequest request);
 
     @GET("api/v1/health")
     Call<Void> health();

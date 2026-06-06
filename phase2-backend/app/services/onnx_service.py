@@ -25,43 +25,52 @@ class OnnxService:
     def __init__(self):
         self._session: Optional[ort.InferenceSession] = None
         self._input_name: Optional[str] = None
+        self._model_kind: str = "none"
         self._load_model()
 
     # ── Startup ────────────────────────────────────────────────────────────────
 
     def _load_model(self):
-        """Load the ONNX model from disk into an ORT InferenceSession."""
-        model_path = Path(settings.ONNX_MODEL_PATH)
+        """
+        Load the ONNX model, trying the real model first and the synthetic
+        backup second. The backend always has a working model available.
+        """
+        candidates = [
+            (Path(settings.ONNX_MODEL_PATH),          "real"),
+            (Path(settings.ONNX_FALLBACK_MODEL_PATH), "synthetic-fallback"),
+        ]
 
-        if not model_path.exists():
-            logger.error(
-                f"ONNX model not found at {model_path}. "
-                "Run phase1-model/run_pipeline.py first."
-            )
-            return
+        for model_path, kind in candidates:
+            if not model_path.exists():
+                logger.warning(f"ONNX {kind} model not found at {model_path}")
+                continue
+            try:
+                opts = ort.SessionOptions()
+                opts.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+                opts.intra_op_num_threads = 2
 
-        try:
-            # Use CPU execution provider for maximum compatibility
-            # Switch to ["CUDAExecutionProvider", "CPUExecutionProvider"] for GPU
-            opts = ort.SessionOptions()
-            opts.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
-            opts.intra_op_num_threads = 2  # Keep low for server with many workers
+                self._session = ort.InferenceSession(
+                    str(model_path),
+                    sess_options=opts,
+                    providers=["CPUExecutionProvider"],
+                )
+                self._input_name = self._session.get_inputs()[0].name
+                self._model_kind = kind
 
-            self._session = ort.InferenceSession(
-                str(model_path),
-                sess_options=opts,
-                providers=["CPUExecutionProvider"],
-            )
-            self._input_name = self._session.get_inputs()[0].name
+                logger.info(
+                    f"ONNX model loaded | path={model_path.name} "
+                    f"| kind={kind} | input={self._input_name} "
+                    f"| features={len(FEATURE_NAMES)}"
+                )
+                return  # loaded successfully — stop trying
+            except Exception as exc:
+                logger.error(f"Failed to load ONNX {kind} model ({model_path.name}): {exc}")
+                self._session = None
 
-            logger.info(
-                f"ONNX model loaded | path={model_path.name} "
-                f"| input={self._input_name} "
-                f"| features={len(FEATURE_NAMES)}"
-            )
-        except Exception as exc:
-            logger.error(f"Failed to load ONNX model: {exc}")
-            self._session = None
+        logger.error(
+            "No ONNX model could be loaded. "
+            "Run phase1-model/train_real_model.py to generate one."
+        )
 
     @property
     def is_loaded(self) -> bool:

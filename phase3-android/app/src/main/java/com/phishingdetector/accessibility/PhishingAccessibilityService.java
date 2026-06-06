@@ -6,6 +6,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
 import com.phishingdetector.network.ApiClient;
+import com.phishingdetector.network.ApiResponse;
 import com.phishingdetector.network.DetectionRequest;
 import com.phishingdetector.network.DetectionResponse;
 import com.phishingdetector.network.DetectionResult;
@@ -13,7 +14,9 @@ import com.phishingdetector.notification.UrlExtractor;
 import com.phishingdetector.utils.AlertManager;
 import com.phishingdetector.utils.PreferenceManager;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -21,9 +24,11 @@ import retrofit2.Response;
 
 public class PhishingAccessibilityService extends AccessibilityService {
 
-    private static final String TAG = "PhishAccessibility";
+    private static final String TAG             = "PhishAccessibility";
+    private static final long   DEDUP_WINDOW_MS = 30_000; // ignore same URL within 30s
 
-    private final UrlExtractor urlExtractor = new UrlExtractor();
+    private final UrlExtractor        urlExtractor    = new UrlExtractor();
+    private final Map<String, Long>   recentlyScanned = new HashMap<>();
 
     @Override
     public void onAccessibilityEvent(AccessibilityEvent event) {
@@ -35,11 +40,13 @@ public class PhishingAccessibilityService extends AccessibilityService {
             return;
         }
 
-        // Scan the text of all nodes in the event source.
+        // Never scan URLs typed inside our own app — prevents manual-scan duplicates.
+        CharSequence pkg = event.getPackageName();
+        if (pkg != null && pkg.toString().equals(getPackageName())) return;
+
         AccessibilityNodeInfo source = event.getSource();
         if (source != null) {
-            scanNodeForUrls(source, event.getPackageName() != null
-                    ? event.getPackageName().toString() : "unknown");
+            scanNodeForUrls(source, pkg != null ? pkg.toString() : "unknown");
             source.recycle();
         }
     }
@@ -55,7 +62,6 @@ public class PhishingAccessibilityService extends AccessibilityService {
             }
         }
 
-        // Recurse into children (limited depth to avoid ANR).
         for (int i = 0; i < Math.min(node.getChildCount(), 20); i++) {
             AccessibilityNodeInfo child = node.getChild(i);
             if (child != null) {
@@ -71,30 +77,38 @@ public class PhishingAccessibilityService extends AccessibilityService {
     }
 
     private void checkUrl(String url, String sourcePackage) {
+        // Deduplicate — skip if this exact URL was already submitted in the last 30s.
+        long now = System.currentTimeMillis();
+        Long last = recentlyScanned.get(url);
+        if (last != null && (now - last) < DEDUP_WINDOW_MS) return;
+        recentlyScanned.put(url, now);
+
         DetectionRequest request = new DetectionRequest(url, sourcePackage);
         ApiClient.getInstance(this)
                 .getService()
                 .detectUrl(request)
-                .enqueue(new Callback<DetectionResponse>() {
+                .enqueue(new Callback<ApiResponse>() {
 
                     @Override
-                    public void onResponse(Call<DetectionResponse> call,
-                                           Response<DetectionResponse> response) {
-                        if (!response.isSuccessful() || response.body() == null) return;
-                        DetectionResponse body = response.body();
+                    public void onResponse(Call<ApiResponse> call,
+                                           Response<ApiResponse> response) {
+                        if (!response.isSuccessful()
+                                || response.body() == null
+                                || !response.body().isSuccess()) return;
 
+                        DetectionResponse data = response.body().getData();
                         PreferenceManager.getInstance(PhishingAccessibilityService.this)
-                                .addToHistory(new DetectionResult(body));
+                                .addToHistory(new DetectionResult(data));
 
-                        if (body.isPhishing()) {
-                            Log.w(TAG, "Accessibility — PHISHING: " + url);
+                        if (data.isPhishing()) {
+                            Log.w(TAG, "PHISHING detected via accessibility: " + url);
                             AlertManager.getInstance(PhishingAccessibilityService.this)
-                                    .showPhishingAlert(url, body.getConfidence());
+                                    .showPhishingAlert(url, data.getConfidence());
                         }
                     }
 
                     @Override
-                    public void onFailure(Call<DetectionResponse> call, Throwable t) {
+                    public void onFailure(Call<ApiResponse> call, Throwable t) {
                         Log.e(TAG, "API call failed: " + url, t);
                     }
                 });

@@ -46,24 +46,25 @@ def health_detail():
     HTTP 200 if all services are operational.
     HTTP 503 if any critical service (ONNX model) is unavailable.
     """
-    mongo = current_app.extensions.get("mongodb")
+    mysql = current_app.extensions.get("mysql")
     onnx = current_app.extensions.get("onnx")
     vt = current_app.extensions.get("virustotal")
 
     from config.settings import settings
     from pathlib import Path
 
-    mongo_ok = mongo is not None and mongo.is_connected
+    mysql_ok = mysql is not None and mysql.is_connected
     onnx_ok = onnx is not None and onnx.is_loaded
 
     services = {
-        "mongodb": {
-            "connected": mongo_ok,
-            "cached_urls": mongo.count() if mongo_ok else -1,
+        "mysql": {
+            "connected": mysql_ok,
+            "cached_urls": mysql.count() if mysql_ok else -1,
         },
         "onnx_model": {
             "loaded": onnx_ok,
             "model": Path(settings.ONNX_MODEL_PATH).name if onnx_ok else None,
+            "kind": onnx._model_kind if onnx_ok else "none",
         },
         "virustotal": {
             "configured": vt.is_configured if vt else False,
@@ -71,7 +72,6 @@ def health_detail():
         },
     }
 
-    # ONNX model is the critical service — without it we can't classify URLs
     overall_status = "ok" if onnx_ok else "degraded"
     http_status = 200 if onnx_ok else 503
 

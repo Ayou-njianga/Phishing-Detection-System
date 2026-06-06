@@ -18,17 +18,24 @@ class Settings:
     DEBUG: bool = os.getenv("FLASK_DEBUG", "0") == "1"
     SECRET_KEY: str = os.getenv("SECRET_KEY", "dev-secret-do-not-use-in-prod")
 
-    # ── MongoDB ────────────────────────────────────────────────────────────────
-    MONGO_URI: str = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-    MONGO_DB_NAME: str = os.getenv("MONGO_DB_NAME", "phishing_detector")
-    MONGO_COLLECTION_PHISHING: str = os.getenv("MONGO_COLLECTION_PHISHING", "phishing_urls")
-    MONGO_TIMEOUT_MS: int = int(os.getenv("MONGO_TIMEOUT_MS", "5000"))
+    # ── MySQL ──────────────────────────────────────────────────────────────────
+    MYSQL_HOST: str     = os.getenv("MYSQL_HOST", "localhost")
+    MYSQL_PORT: int     = int(os.getenv("MYSQL_PORT", "3306"))
+    MYSQL_DB: str       = os.getenv("MYSQL_DB", "phishing_detector")
+    MYSQL_USER: str     = os.getenv("MYSQL_USER", "root")
+    MYSQL_PASSWORD: str = os.getenv("MYSQL_PASSWORD", "")
+    MYSQL_TIMEOUT_SEC: int = int(os.getenv("MYSQL_TIMEOUT_SEC", "5"))
 
     # ── ONNX model ─────────────────────────────────────────────────────────────
+    _models_dir = Path(__file__).parent.parent.parent / "phase1-model" / "outputs" / "models"
     ONNX_MODEL_PATH: str = os.getenv(
         "ONNX_MODEL_PATH",
-        str(Path(__file__).parent.parent.parent
-            / "phase1-model" / "outputs" / "models" / "phishing_detector_quantized.onnx"),
+        str(_models_dir / "phishing_detector_quantized.onnx"),
+    )
+    # Synthetic model used as fallback when the real model is missing or fails
+    ONNX_FALLBACK_MODEL_PATH: str = os.getenv(
+        "ONNX_FALLBACK_MODEL_PATH",
+        str(_models_dir / "phishing_detector_synthetic.onnx"),
     )
     # Predictions below this score trigger a VirusTotal lookup
     CONFIDENCE_THRESHOLD: float = float(os.getenv("CONFIDENCE_THRESHOLD", "0.75"))
