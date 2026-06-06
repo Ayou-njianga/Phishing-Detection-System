@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android does not use a separate XML config file for NotificationListenerService.
+  Filtering is declared directly in AndroidManifest.xml via meta-data.
+  This file is a placeholder retained for project structure consistency.
+-->
+<notification-listener />

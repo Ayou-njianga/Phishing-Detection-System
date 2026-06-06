@@ -12,7 +12,9 @@ import re
 from collections import Counter
 from urllib.parse import urlparse
 
+# suffix_list_urls=False uses the bundled snapshot — avoids SSL issues on first run
 import tldextract
+_tld = tldextract.TLDExtract(suffix_list_urls=False)
 
 
 # ── Constants (kept in sync with phase1-model/src/features/) ──────────────────
@@ -80,7 +82,7 @@ def extract(url: str) -> list[float]:
     """
     try:
         parsed = urlparse(url)
-        ext = tldextract.extract(url)
+        ext = _tld(url)
     except Exception:
         return [0.0] * len(FEATURE_NAMES)
 

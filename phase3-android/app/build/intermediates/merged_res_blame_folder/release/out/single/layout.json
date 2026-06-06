@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-mergeReleaseResources-32:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-main-35:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-mergeReleaseResources-32:\\layout\\item_result.xml",
+        "source": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-main-35:\\layout\\item_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-mergeReleaseResources-32:\\layout\\activity_results.xml",
+        "source": "C:\\Users\\AYOUBA\\.gradle\\daemon\\8.9\\com.phishingdetector.app-main-35:\\layout\\activity_results.xml"
+    }
+]

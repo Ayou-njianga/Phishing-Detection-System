@@ -1,0 +1,1273 @@
+2026-06-04 21:55:12 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a21f43afeddf985b6a65100, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-04 21:55:12 | ERROR    | app.services.onnx | ONNX model not found at C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase1-model\outputs\models\phishing_detector_quantized.onnx. Run phase1-model/run_pipeline.py first.
+2026-06-04 21:55:12 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-04 21:55:12 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 03:07:28 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a223d6b76ffdc5c9b3473cc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 03:07:28 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 03:07:28 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 03:07:28 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 03:07:59 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 03:08:07 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account/update → 0.4327
+2026-06-05 03:08:07 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account/update | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 03:08:07 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account/update | phishing=False | source=onnx_model | stages=['onnx_model'] | 7920.1ms
+2026-06-05 03:08:07 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 03:08:07 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com/search?q=test → 0.0799
+2026-06-05 03:08:07 | DEBUG    | app.services.detection | [ONNX] https://www.google.com/search?q=test | confidence=0.0799 | threshold=0.75 | phishing=False
+2026-06-05 03:08:07 | INFO     | app.services.detection | [RESULT] https://www.google.com/search?q=test | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.0ms
+2026-06-05 03:08:49 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 03:08:49 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account/update → 0.4327
+2026-06-05 03:08:49 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account/update | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 03:08:49 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account/update | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.s → 0.0667
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.se → 0.0667
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.se → 0.0667
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.s → 0.0667
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.sec → 0.1199
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.s | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.se | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.se | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.s | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.s | phishing=False | source=onnx_model | stages=['onnx_model'] | 140.4ms
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.sec | confidence=0.1199 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.se | phishing=False | source=onnx_model | stages=['onnx_model'] | 137.7ms
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.se | phishing=False | source=onnx_model | stages=['onnx_model'] | 157.5ms
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.s | phishing=False | source=onnx_model | stages=['onnx_model'] | 166.2ms
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.sec | phishing=False | source=onnx_model | stages=['onnx_model'] | 93.2ms
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secur → 0.1249
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secur | confidence=0.1249 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.sec → 0.1199
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.sec | confidence=0.1199 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.secur | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.7ms
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.sec | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.6ms
+2026-06-05 04:29:56 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:56 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secu → 0.1249
+2026-06-05 04:29:56 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secu | confidence=0.1249 | threshold=0.75 | phishing=False
+2026-06-05 04:29:56 | INFO     | app.services.detection | [RESULT] http://paypal-login.secu | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 04:29:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:57 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secu → 0.1249
+2026-06-05 04:29:57 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secu | confidence=0.1249 | threshold=0.75 | phishing=False
+2026-06-05 04:29:57 | INFO     | app.services.detection | [RESULT] http://paypal-login.secu | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 04:29:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:29:57 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secur → 0.1249
+2026-06-05 04:29:57 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secur | confidence=0.1249 | threshold=0.75 | phishing=False
+2026-06-05 04:29:57 | INFO     | app.services.detection | [RESULT] http://paypal-login.secur | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 04:30:29 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:30:29 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.s → 0.0667
+2026-06-05 04:30:29 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.s | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:30:29 | INFO     | app.services.detection | [RESULT] http://paypal-login.s | phishing=False | source=onnx_model | stages=['onnx_model'] | 3.7ms
+2026-06-05 04:30:29 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:30:29 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.s → 0.0667
+2026-06-05 04:30:29 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.s | confidence=0.0667 | threshold=0.75 | phishing=False
+2026-06-05 04:30:29 | INFO     | app.services.detection | [RESULT] http://paypal-login.s | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.5ms
+2026-06-05 04:38:21 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:38:21 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:38:21 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-ve → 0.3899
+2026-06-05 04:38:21 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-ve → 0.3899
+2026-06-05 04:38:21 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-ve | confidence=0.3899 | threshold=0.75 | phishing=False
+2026-06-05 04:38:21 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-ve | confidence=0.3899 | threshold=0.75 | phishing=False
+2026-06-05 04:38:21 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-ve | phishing=False | source=onnx_model | stages=['onnx_model'] | 9.6ms
+2026-06-05 04:38:21 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-ve | phishing=False | source=onnx_model | stages=['onnx_model'] | 7.1ms
+2026-06-05 04:40:40 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:40 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:40 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:40 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:40 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:40 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:40 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 9.4ms
+2026-06-05 04:40:40 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 8.6ms
+2026-06-05 04:40:43 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:43 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:43 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:43 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:43 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:43 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.6ms
+2026-06-05 04:40:43 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:43 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-05 04:40:43 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:43 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:43 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:43 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.7ms
+2026-06-05 04:40:43 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:40:43 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:40:43 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:40:43 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.9ms
+2026-06-05 04:42:40 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:42:40 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:42:40 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:42:40 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:42:40 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 4.1ms
+2026-06-05 04:42:40 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:42:40 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:42:40 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 5.9ms
+2026-06-05 04:42:51 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:42:51 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 04:42:51 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:42:51 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 04:42:51 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:42:51 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 04:42:51 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 4.2ms
+2026-06-05 04:42:51 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 4.3ms
+2026-06-05 05:18:41 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225c2c12524ec4b4ca6ecc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:18:41 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:18:41 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:18:41 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:19:58 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225c793392dc68b3502a27, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:19:58 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:19:58 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:19:58 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:21:00 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:21:00 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:21:00 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 05:21:00 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 58.9ms
+2026-06-05 05:22:57 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225d2cd9f4e76e65416290, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:22:57 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:22:57 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:22:57 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:22:59 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:22:59 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:22:59 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 05:22:59 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:24:16 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225d7b48b088d2c74f4424, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:24:16 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:24:16 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:24:16 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:24:18 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:24:18 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:24:18 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.75 | phishing=False
+2026-06-05 05:24:18 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:26:43 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225e0eea17fdbc7c798daa, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:26:43 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:26:43 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:26:43 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:26:45 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:27:08 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:27:08 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:27:08 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 22179.3ms
+2026-06-05 05:32:03 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a225f4e15e62bfcd98e9c1b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 05:32:04 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | input=float_input | features=36
+2026-06-05 05:32:04 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 05:32:04 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 05:32:06 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:32:06 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:32:06 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:32:06 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 49.4ms
+2026-06-05 05:33:11 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:11 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:11 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:11 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:11 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:11 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.5ms
+2026-06-05 05:33:11 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:11 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-05 05:33:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:13 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:13 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:13 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:33:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:13 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:13 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:13 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:33:14 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:14 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:14 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:14 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:22 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:22 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:22 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:23 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:23 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:23 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:23 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:23 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:23 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:24 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:24 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:24 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 05:33:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:33:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:27 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:27 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:27 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:27 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:33:27 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:27 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:27 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:27 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:33:27 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:27 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:27 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:27 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:33:27 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:27 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:27 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:27 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 05:33:27 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:33:27 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:33:27 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:33:27 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:34:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:16 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:16 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:16 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:34:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:16 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:16 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:16 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:34:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:23 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:34:23 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:34:23 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:34:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:23 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:23 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:23 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 05:34:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:23 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:34:23 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:34:23 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:34:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:23 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:23 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:23 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:34:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:24 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:34:24 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:24 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:34:24 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:24 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.7ms
+2026-06-05 05:34:24 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 3.5ms
+2026-06-05 05:34:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:24 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:34:24 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:34:24 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:34:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:24 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:24 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:24 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.0ms
+2026-06-05 05:34:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:26 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:26 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:26 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 05:34:46 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:34:46 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:34:46 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:34:46 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 05:45:14 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:45:14 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:45:14 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:45:14 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 05:55:42 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:55:42 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:55:42 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.0783
+2026-06-05 05:55:42 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.0783 | threshold=0.35 | phishing=False
+2026-06-05 05:55:42 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:55:42 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 9.8ms
+2026-06-05 05:55:42 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:55:42 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 12.1ms
+2026-06-05 05:55:45 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:55:45 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:55:45 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:55:45 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 05:56:46 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:56:46 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:56:46 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:56:46 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 05:56:59 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 05:56:59 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 05:56:59 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 05:56:59 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 06:06:07 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 06:06:07 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 06:06:07 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 06:06:07 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 06:06:07 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 06:06:07 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 06:06:07 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 5.3ms
+2026-06-05 06:06:07 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.2ms
+2026-06-05 06:25:44 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 06:25:44 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 06:25:44 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 06:25:44 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.4327
+2026-06-05 06:25:44 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 06:25:44 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.4327 | threshold=0.35 | phishing=True
+2026-06-05 06:25:44 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.2ms
+2026-06-05 06:25:44 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.1ms
+2026-06-05 08:21:45 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a228713340184b0e2a41b51, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 08:21:45 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 08:21:45 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 08:21:45 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 08:22:25 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:22:25 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 1.0000
+2026-06-05 08:22:25 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:22:25 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 86.6ms
+2026-06-05 08:22:25 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:22:25 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0000
+2026-06-05 08:22:25 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0000 | threshold=0.35 | phishing=False
+2026-06-05 08:22:25 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:22:25 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:22:25 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 08:22:25 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:22:25 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:22:25 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:22:25 | DEBUG    | app.services.onnx | ONNX inference: https://github.com/anthropics/claude → 1.0000
+2026-06-05 08:22:25 | DEBUG    | app.services.detection | [ONNX] https://github.com/anthropics/claude | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:22:25 | INFO     | app.services.detection | [RESULT] https://github.com/anthropics/claude | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:30:05 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a22890895df9f8cd7be75da, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 08:30:05 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 08:30:05 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 08:30:05 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 44.3ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: http://microsoft-support.tk/password-reset → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] http://microsoft-support.tk/password-reset | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] http://microsoft-support.tk/password-reset | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0000 | threshold=0.35 | phishing=False
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: https://github.com/anthropics/claude → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] https://github.com/anthropics/claude | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] https://github.com/anthropics/claude | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com/products → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com/products | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] https://www.amazon.com/products | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: https://stackoverflow.com/questions → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] https://stackoverflow.com/questions | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] https://stackoverflow.com/questions | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:30:09 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:30:09 | DEBUG    | app.services.onnx | ONNX inference: https://linkedin.com/in/profile → 1.0000
+2026-06-05 08:30:09 | DEBUG    | app.services.detection | [ONNX] https://linkedin.com/in/profile | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:30:09 | INFO     | app.services.detection | [RESULT] https://linkedin.com/in/profile | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:33:15 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a2289c5515b7ed45c1f75c3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 08:33:15 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 08:33:15 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 08:33:15 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9995
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9995 | threshold=0.35 | phishing=True
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 47.3ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 0.9996
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=0.9996 | threshold=0.35 | phishing=True
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: http://microsoft-support.tk/password-reset → 0.9996
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] http://microsoft-support.tk/password-reset | confidence=0.9996 | threshold=0.35 | phishing=True
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] http://microsoft-support.tk/password-reset | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0003
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0003 | threshold=0.35 | phishing=False
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: https://github.com/anthropics/claude → 0.9992
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] https://github.com/anthropics/claude | confidence=0.9992 | threshold=0.35 | phishing=True
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] https://github.com/anthropics/claude | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com/products → 0.0006
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com/products | confidence=0.0006 | threshold=0.35 | phishing=False
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] https://www.amazon.com/products | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: https://stackoverflow.com/questions → 0.0228
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] https://stackoverflow.com/questions | confidence=0.0228 | threshold=0.35 | phishing=False
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] https://stackoverflow.com/questions | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:33:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:33:19 | DEBUG    | app.services.onnx | ONNX inference: https://linkedin.com/in/profile → 0.9995
+2026-06-05 08:33:19 | DEBUG    | app.services.detection | [ONNX] https://linkedin.com/in/profile | confidence=0.9995 | threshold=0.35 | phishing=True
+2026-06-05 08:33:19 | INFO     | app.services.detection | [RESULT] https://linkedin.com/in/profile | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 08:36:20 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a228a7f0585207f6328fcba, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 08:36:20 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 08:36:20 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 08:36:20 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9996
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9996 | threshold=0.35 | phishing=True
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 38.2ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 0.9998
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: http://microsoft-support.tk/password-reset → 0.9998
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] http://microsoft-support.tk/password-reset | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] http://microsoft-support.tk/password-reset | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0002
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0002 | threshold=0.35 | phishing=False
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: https://github.com/anthropics/claude → 0.9915
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] https://github.com/anthropics/claude | confidence=0.9915 | threshold=0.35 | phishing=True
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] https://github.com/anthropics/claude | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com/products → 0.0011
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com/products | confidence=0.0011 | threshold=0.35 | phishing=False
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] https://www.amazon.com/products | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: https://stackoverflow.com/questions → 0.0414
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] https://stackoverflow.com/questions | confidence=0.0414 | threshold=0.35 | phishing=False
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] https://stackoverflow.com/questions | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:36:24 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:36:24 | DEBUG    | app.services.onnx | ONNX inference: https://linkedin.com/in/profile → 0.0028
+2026-06-05 08:36:24 | DEBUG    | app.services.detection | [ONNX] https://linkedin.com/in/profile | confidence=0.0028 | threshold=0.35 | phishing=False
+2026-06-05 08:36:24 | INFO     | app.services.detection | [RESULT] https://linkedin.com/in/profile | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:50:32 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a228dd3cbf28733c3e8055c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 08:50:32 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 08:50:32 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 08:50:32 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9978
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9978 | threshold=0.35 | phishing=True
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 30.9ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: http://microsoft-support.tk/password-reset → 1.0000
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] http://microsoft-support.tk/password-reset | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] http://microsoft-support.tk/password-reset | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0033
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: https://github.com/anthropics/claude → 0.9980
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] https://github.com/anthropics/claude | confidence=0.9980 | threshold=0.35 | phishing=True
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] https://github.com/anthropics/claude | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com/products → 0.0564
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com/products | confidence=0.0564 | threshold=0.35 | phishing=False
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] https://www.amazon.com/products | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.6ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: https://stackoverflow.com/questions → 0.1854
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] https://stackoverflow.com/questions | confidence=0.1854 | threshold=0.35 | phishing=False
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] https://stackoverflow.com/questions | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:50:36 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:50:36 | DEBUG    | app.services.onnx | ONNX inference: https://linkedin.com/in/profile → 0.0806
+2026-06-05 08:50:36 | DEBUG    | app.services.detection | [ONNX] https://linkedin.com/in/profile | confidence=0.0806 | threshold=0.35 | phishing=False
+2026-06-05 08:50:36 | INFO     | app.services.detection | [RESULT] https://linkedin.com/in/profile | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-05 08:59:52 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 08:59:52 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.8901
+2026-06-05 08:59:52 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.8901 | threshold=0.35 | phishing=True
+2026-06-05 08:59:52 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.5ms
+2026-06-05 09:01:22 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 09:01:22 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0033
+2026-06-05 09:01:22 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-05 09:01:22 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-05 09:03:42 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 09:03:42 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 09:03:42 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 09:03:42 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-05 09:03:42 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 09:03:42 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 09:03:42 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 09:03:42 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-05 09:03:47 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 09:03:47 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 09:03:47 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 09:03:47 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-05 09:14:03 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 09:14:03 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 09:14:03 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 09:14:03 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-05 23:47:56 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a236027a397b015fa0d4e03, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-05 23:47:56 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-05 23:47:56 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-05 23:47:56 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-05 23:48:39 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:48:40 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:48:40 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:48:40 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 101.2ms
+2026-06-05 23:49:20 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:49:20 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:49:20 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:49:20 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-05 23:51:51 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:51:51 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:51:51 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:51:51 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:51:51 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:51:51 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:51:51 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 5.6ms
+2026-06-05 23:51:51 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.1ms
+2026-06-05 23:53:21 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:21 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:53:21 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:53:21 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-05 23:53:21 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:21 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:53:21 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:53:21 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-05 23:53:21 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:21 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:53:21 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:53:21 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.0ms
+2026-06-05 23:53:54 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:54 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:54 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:53:54 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:53:54 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:53:54 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:53:54 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.8ms
+2026-06-05 23:53:54 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.7ms
+2026-06-05 23:53:55 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:53:55 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:53:55 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:53:55 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.3ms
+2026-06-05 23:54:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:26 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:54:26 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:54:26 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.2ms
+2026-06-05 23:54:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:26 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:54:26 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:54:26 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-05 23:54:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:26 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:54:26 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:54:26 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.6ms
+2026-06-05 23:54:31 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:31 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:31 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:54:31 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:54:31 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:54:31 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:54:31 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.5ms
+2026-06-05 23:54:31 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.7ms
+2026-06-05 23:54:31 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:54:31 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:54:31 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:54:31 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-05 23:56:39 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:39 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0033
+2026-06-05 23:56:39 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-05 23:56:39 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.2ms
+2026-06-05 23:56:39 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:39 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:56:39 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:56:39 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 23:56:39 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:39 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:56:39 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:56:39 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-05 23:56:39 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:39 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:56:39 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:56:39 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-05 23:56:48 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:48 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:48 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:56:48 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:56:48 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:56:48 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:56:48 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:48 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 6.4ms
+2026-06-05 23:56:48 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0033
+2026-06-05 23:56:48 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 5.9ms
+2026-06-05 23:56:48 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-05 23:56:48 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 9.3ms
+2026-06-05 23:56:53 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:56:53 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:56:53 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:56:53 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-05 23:57:04 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:57:04 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-05 23:57:04 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:57:04 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-05 23:57:07 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:57:07 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:57:07 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:57:07 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.0ms
+2026-06-05 23:57:18 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:57:18 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-05 23:57:18 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:57:18 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-05 23:57:19 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:57:19 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-05 23:57:19 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-05 23:57:19 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.7ms
+2026-06-05 23:57:23 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:57:23 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-05 23:57:23 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:57:23 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-05 23:58:17 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-05 23:58:17 | DEBUG    | app.services.onnx | ONNX inference: http://https ://www.google.com → 1.0000
+2026-06-05 23:58:17 | DEBUG    | app.services.detection | [ONNX] http://https ://www.google.com | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-05 23:58:17 | INFO     | app.services.detection | [RESULT] http://https ://www.google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-06 00:00:02 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:00:02 | DEBUG    | app.services.onnx | ONNX inference: https://google.com → 0.0129
+2026-06-06 00:00:02 | DEBUG    | app.services.detection | [ONNX] https://google.com | confidence=0.0129 | threshold=0.35 | phishing=False
+2026-06-06 00:00:02 | INFO     | app.services.detection | [RESULT] https://google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.4ms
+2026-06-06 00:00:20 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:00:20 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9978
+2026-06-06 00:00:20 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9978 | threshold=0.35 | phishing=True
+2026-06-06 00:00:20 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.6ms
+2026-06-06 00:01:25 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:01:25 | DEBUG    | app.services.onnx | ONNX inference: http://https ://www.google.com → 1.0000
+2026-06-06 00:01:25 | DEBUG    | app.services.detection | [ONNX] http://https ://www.google.com | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:01:25 | INFO     | app.services.detection | [RESULT] http://https ://www.google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0033
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.0ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.facebook.com → 0.0092
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] https://www.facebook.com | confidence=0.0092 | threshold=0.35 | phishing=False
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] https://www.facebook.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.9989
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.9989 | threshold=0.35 | phishing=True
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.0068
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.0068 | threshold=0.35 | phishing=False
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: https://youtube.com → 0.0235
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] https://youtube.com | confidence=0.0235 | threshold=0.35 | phishing=False
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] https://youtube.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.0ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: http://192.168.43.41:5000/api/v1/health → 1.0000
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] http://192.168.43.41:5000/api/v1/health | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] http://192.168.43.41:5000/api/v1/health | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:02:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:02:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.microsoft.com/en-us/windows → 0.0200
+2026-06-06 00:02:28 | DEBUG    | app.services.detection | [ONNX] https://www.microsoft.com/en-us/windows | confidence=0.0200 | threshold=0.35 | phishing=False
+2026-06-06 00:02:28 | INFO     | app.services.detection | [RESULT] https://www.microsoft.com/en-us/windows | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.9989
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.9989 | threshold=0.35 | phishing=True
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.6ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com → 0.0040
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com | confidence=0.0040 | threshold=0.35 | phishing=False
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] https://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: http://amazon.com → 0.9998
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] http://amazon.com | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] http://amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: https://amazon.com → 0.0128
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] https://amazon.com | confidence=0.0128 | threshold=0.35 | phishing=False
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] https://amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.9988
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.9988 | threshold=0.35 | phishing=True
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:03:13 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:03:13 | DEBUG    | app.services.onnx | ONNX inference: https://www.paypal.com → 0.0033
+2026-06-06 00:03:13 | DEBUG    | app.services.detection | [ONNX] https://www.paypal.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-06 00:03:13 | INFO     | app.services.detection | [RESULT] https://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 00:08:48 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a23650b2878b18f8a39093c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-06 00:08:48 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 00:08:48 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 00:08:48 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 00:09:32 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:32 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.9989
+2026-06-06 00:09:32 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.9989 | threshold=0.35 | phishing=True
+2026-06-06 00:09:32 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 54.7ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com → 0.0040
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com | confidence=0.0040 | threshold=0.35 | phishing=False
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] https://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.9998
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: https://google.com → 0.0129
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] https://google.com | confidence=0.0129 | threshold=0.35 | phishing=False
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] https://google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.9991
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.9991 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.9988
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.9988 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: https://www.paypal.com → 0.0033
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] https://www.paypal.com | confidence=0.0033 | threshold=0.35 | phishing=False
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] https://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9978
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9978 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://192.168.43.41:5000/api/v1/health → 1.0000
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://192.168.43.41:5000/api/v1/health | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://192.168.43.41:5000/api/v1/health | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.0068
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.0068 | threshold=0.35 | phishing=False
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:09:33 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:09:33 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9995
+2026-06-06 00:09:33 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9995 | threshold=0.35 | phishing=True
+2026-06-06 00:09:33 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 00:11:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:11:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:11:26 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-06 00:11:26 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-06 00:11:26 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:11:26 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:11:26 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 5.2ms
+2026-06-06 00:11:26 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.1ms
+2026-06-06 00:11:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:11:26 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.9998
+2026-06-06 00:11:26 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-06 00:11:26 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:11:26 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 0.9998
+2026-06-06 00:11:26 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-06 00:11:26 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=0.9998 | threshold=0.35 | phishing=True
+2026-06-06 00:11:26 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.8ms
+2026-06-06 00:32:08 | ERROR    | app.services.mongodb | MongoDB connection failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a236a832a9e59ed70fda210, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2026-06-06 00:32:09 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 00:32:09 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 00:32:09 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.0111
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.0111 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 47.9ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com → 0.0049
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com | confidence=0.0049 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] https://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.0ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.0083
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.0083 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: https://google.com → 0.0064
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] https://google.com | confidence=0.0064 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] https://google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.1085
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.1085 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.0070
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.0070 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: https://www.paypal.com → 0.0037
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] https://www.paypal.com | confidence=0.0037 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] https://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9991
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9991 | threshold=0.35 | phishing=True
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.0680
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.0680 | threshold=0.35 | phishing=False
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9999
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9999 | threshold=0.35 | phishing=True
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:32:57 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:32:57 | DEBUG    | app.services.onnx | ONNX inference: http://microsoft-support-alert.xyz/update → 1.0000
+2026-06-06 00:32:57 | DEBUG    | app.services.detection | [ONNX] http://microsoft-support-alert.xyz/update | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:32:57 | INFO     | app.services.detection | [RESULT] http://microsoft-support-alert.xyz/update | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 00:34:03 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:34:03 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:34:03 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:34:03 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 00:34:37 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:34:37 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0037
+2026-06-06 00:34:37 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0037 | threshold=0.35 | phishing=False
+2026-06-06 00:34:37 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:34:37 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:34:37 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:34:37 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:34:37 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.6ms
+2026-06-06 00:35:02 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:35:02 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 1.0000
+2026-06-06 00:35:02 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:35:02 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.7ms
+2026-06-06 00:35:30 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:35:30 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:35:30 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:35:30 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:35:30 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:35:30 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0037
+2026-06-06 00:35:30 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0037 | threshold=0.35 | phishing=False
+2026-06-06 00:35:30 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.7ms
+2026-06-06 00:36:08 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:08 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:36:08 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:08 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-06 00:36:08 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:08 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0037
+2026-06-06 00:36:08 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0037 | threshold=0.35 | phishing=False
+2026-06-06 00:36:08 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 00:36:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:16 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:36:16 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 1.0000
+2026-06-06 00:36:16 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:16 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:16 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.9ms
+2026-06-06 00:36:16 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.5ms
+2026-06-06 00:36:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:16 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:16 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-06 00:36:16 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-06 00:36:16 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:16 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:16 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 6.9ms
+2026-06-06 00:36:16 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 5.8ms
+2026-06-06 00:36:43 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:43 | DEBUG    | app.services.onnx | ONNX inference: https://www.google.com → 0.0037
+2026-06-06 00:36:43 | DEBUG    | app.services.detection | [ONNX] https://www.google.com | confidence=0.0037 | threshold=0.35 | phishing=False
+2026-06-06 00:36:43 | INFO     | app.services.detection | [RESULT] https://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.6ms
+2026-06-06 00:36:48 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:48 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:48 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 1.0000
+2026-06-06 00:36:48 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:36:48 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:48 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:48 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 4.2ms
+2026-06-06 00:36:48 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 3.2ms
+2026-06-06 00:36:51 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:51 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-06 00:36:51 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:51 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:36:55 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:36:55 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 1.0000
+2026-06-06 00:36:55 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:36:55 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.9ms
+2026-06-06 00:37:00 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:37:00 | DEBUG    | app.services.onnx | ONNX inference: https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il → 1.0000
+2026-06-06 00:37:00 | DEBUG    | app.services.detection | [ONNX] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:37:00 | INFO     | app.services.detection | [RESULT] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&il | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:37:18 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:37:18 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:37:18 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:37:18 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:37:28 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:37:28 | DEBUG    | app.services.onnx | ONNX inference: https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 → 1.0000
+2026-06-06 00:37:28 | DEBUG    | app.services.detection | [ONNX] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:37:28 | INFO     | app.services.detection | [RESULT] https://maps.app.goo.gl/pmFuM6ArR4tQGKeF9 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-06 00:38:07 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:38:07 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 1.0000
+2026-06-06 00:38:07 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:38:07 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-06 00:38:41 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:38:41 | DEBUG    | app.services.onnx | ONNX inference: http://njianga.ayouba@ictuniversity.edu.cm → 1.0000
+2026-06-06 00:38:41 | DEBUG    | app.services.detection | [ONNX] http://njianga.ayouba@ictuniversity.edu.cm | confidence=1.0000 | threshold=0.35 | phishing=True
+2026-06-06 00:38:41 | INFO     | app.services.detection | [RESULT] http://njianga.ayouba@ictuniversity.edu.cm | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 00:45:52 | WARNING  | app.services.mongodb | MongoDB not connected — skipping cache lookup
+2026-06-06 00:45:52 | DEBUG    | app.services.onnx | ONNX inference: http://www.google.com → 0.0070
+2026-06-06 00:45:52 | DEBUG    | app.services.detection | [ONNX] http://www.google.com | confidence=0.0070 | threshold=0.35 | phishing=False
+2026-06-06 00:45:52 | INFO     | app.services.detection | [RESULT] http://www.google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.2ms
+2026-06-06 06:23:08 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 06:23:08 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 06:23:08 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 06:23:08 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 06:23:58 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:58 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.4596
+2026-06-06 06:23:58 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.4596 | threshold=0.35 | phishing=True
+2026-06-06 06:23:58 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 47.9ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com → 0.3110
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com | confidence=0.3110 | threshold=0.35 | phishing=False
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] https://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.9970
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.9970 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.3198
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.3198 | threshold=0.35 | phishing=False
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.3785
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.3785 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: https://btttelecommunniccatiion.weeblysite.com → 0.9977
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] https://btttelecommunniccatiion.weeblysite.com | confidence=0.9977 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] https://btttelecommunniccatiion.weeblysite.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9999
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9999 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: http://stcdxmt.bigperl.in/klxtv/apps/uk → 0.5689
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] http://stcdxmt.bigperl.in/klxtv/apps/uk | confidence=0.5689 | threshold=0.35 | phishing=True
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] http://stcdxmt.bigperl.in/klxtv/apps/uk | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:23:59 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:23:59 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.2789
+2026-06-06 06:23:59 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.2789 | threshold=0.35 | phishing=False
+2026-06-06 06:23:59 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:27:42 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 06:27:42 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 06:27:42 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 06:27:42 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 06:28:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:27 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.7400
+2026-06-06 06:28:27 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.7400 | threshold=0.5 | phishing=True
+2026-06-06 06:28:27 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 48.3ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.5940
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.5940 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.amazon.com → 0.3522
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] https://www.amazon.com | confidence=0.3522 | threshold=0.5 | phishing=False
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] https://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.4631
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.4631 | threshold=0.5 | phishing=False
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.paypal.com → 0.2875
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] https://www.paypal.com | confidence=0.2875 | threshold=0.5 | phishing=False
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] https://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.5422
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.5422 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.3667
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.3667 | threshold=0.5 | phishing=False
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9996
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9996 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: https://btttelecommunniccatiion.weeblysite.com → 0.9846
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] https://btttelecommunniccatiion.weeblysite.com | confidence=0.9846 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] https://btttelecommunniccatiion.weeblysite.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9995
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9995 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://stcdxmt.bigperl.in/klxtv/apps/uk → 0.4420
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://stcdxmt.bigperl.in/klxtv/apps/uk | confidence=0.4420 | threshold=0.5 | phishing=False
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://stcdxmt.bigperl.in/klxtv/apps/uk | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:28:28 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:28:28 | DEBUG    | app.services.onnx | ONNX inference: http://rolyborgesmd.com/exceword/excel.php → 0.9797
+2026-06-06 06:28:28 | DEBUG    | app.services.detection | [ONNX] http://rolyborgesmd.com/exceword/excel.php | confidence=0.9797 | threshold=0.5 | phishing=True
+2026-06-06 06:28:28 | INFO     | app.services.detection | [RESULT] http://rolyborgesmd.com/exceword/excel.php | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:36 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 06:32:36 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 06:32:36 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 06:32:36 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.7474
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.7474 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 47.3ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.3561
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.3561 | threshold=0.5 | phishing=False
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.2ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.2671
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.2671 | threshold=0.5 | phishing=False
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.5270
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.5270 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.3689
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.3689 | threshold=0.5 | phishing=False
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.2ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://youtube.com → 0.9191
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://youtube.com | confidence=0.9191 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9995
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9995 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: https://btttelecommunniccatiion.weeblysite.com → 0.9890
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] https://btttelecommunniccatiion.weeblysite.com | confidence=0.9890 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] https://btttelecommunniccatiion.weeblysite.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9992
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9992 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://stcdxmt.bigperl.in/klxtv/apps/uk → 0.5354
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://stcdxmt.bigperl.in/klxtv/apps/uk | confidence=0.5354 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://stcdxmt.bigperl.in/klxtv/apps/uk | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: http://rolyborgesmd.com/exceword/excel.php → 0.9689
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] http://rolyborgesmd.com/exceword/excel.php | confidence=0.9689 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] http://rolyborgesmd.com/exceword/excel.php | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 06:32:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:32:43 | DEBUG    | app.services.onnx | ONNX inference: https://kq0hgp.webwave.dev → 0.9661
+2026-06-06 06:32:43 | DEBUG    | app.services.detection | [ONNX] https://kq0hgp.webwave.dev | confidence=0.9661 | threshold=0.5 | phishing=True
+2026-06-06 06:32:43 | INFO     | app.services.detection | [RESULT] https://kq0hgp.webwave.dev | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 06:37:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:37:40 | DEBUG    | app.services.onnx | ONNX inference: http://youtube.com → 0.9191
+2026-06-06 06:37:40 | DEBUG    | app.services.detection | [ONNX] http://youtube.com | confidence=0.9191 | threshold=0.5 | phishing=True
+2026-06-06 06:37:40 | INFO     | app.services.detection | [RESULT] http://youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 06:37:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:37:40 | DEBUG    | app.services.onnx | ONNX inference: https://youtube.com → 0.6779
+2026-06-06 06:37:40 | DEBUG    | app.services.detection | [ONNX] https://youtube.com | confidence=0.6779 | threshold=0.5 | phishing=True
+2026-06-06 06:37:40 | INFO     | app.services.detection | [RESULT] https://youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:37:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:37:40 | DEBUG    | app.services.onnx | ONNX inference: http://www.youtube.com → 0.6107
+2026-06-06 06:37:40 | DEBUG    | app.services.detection | [ONNX] http://www.youtube.com | confidence=0.6107 | threshold=0.5 | phishing=True
+2026-06-06 06:37:40 | INFO     | app.services.detection | [RESULT] http://www.youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:37:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:37:40 | DEBUG    | app.services.onnx | ONNX inference: https://www.youtube.com → 0.4928
+2026-06-06 06:37:40 | DEBUG    | app.services.detection | [ONNX] https://www.youtube.com | confidence=0.4928 | threshold=0.5 | phishing=False
+2026-06-06 06:37:40 | INFO     | app.services.detection | [RESULT] https://www.youtube.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:20 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 06:43:20 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 06:43:20 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 06:43:20 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://google.com → 0.3130
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://google.com | confidence=0.3130 | threshold=0.5 | phishing=False
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://google.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 48.4ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://youtube.com → 0.6415
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://youtube.com | confidence=0.6415 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://www.facebook.com → 0.5612
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://www.facebook.com | confidence=0.5612 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://www.facebook.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.9ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://www.amazon.com → 0.5164
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://www.amazon.com | confidence=0.5164 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://www.amazon.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://www.paypal.com → 0.3222
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://www.paypal.com | confidence=0.3222 | threshold=0.5 | phishing=False
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://www.paypal.com | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: https://www.github.com → 0.6498
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] https://www.github.com | confidence=0.6498 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] https://www.github.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/account → 0.9996
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/account | confidence=0.9996 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: https://btttelecommunniccatiion.weeblysite.com → 0.9827
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] https://btttelecommunniccatiion.weeblysite.com | confidence=0.9827 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] https://btttelecommunniccatiion.weeblysite.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://free-iphone-winner.tk/claim → 0.9964
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://free-iphone-winner.tk/claim | confidence=0.9964 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://free-iphone-winner.tk/claim | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://stcdxmt.bigperl.in/klxtv/apps/uk → 0.3992
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://stcdxmt.bigperl.in/klxtv/apps/uk | confidence=0.3992 | threshold=0.5 | phishing=False
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://stcdxmt.bigperl.in/klxtv/apps/uk | phishing=False | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: http://rolyborgesmd.com/exceword/excel.php → 0.8925
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] http://rolyborgesmd.com/exceword/excel.php | confidence=0.8925 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] http://rolyborgesmd.com/exceword/excel.php | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.8ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: https://kq0hgp.webwave.dev → 0.9646
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] https://kq0hgp.webwave.dev | confidence=0.9646 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] https://kq0hgp.webwave.dev | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.2ms
+2026-06-06 06:43:27 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:43:27 | DEBUG    | app.services.onnx | ONNX inference: https://brittishtele1bt-69836.getresponsesite.com → 0.9887
+2026-06-06 06:43:27 | DEBUG    | app.services.detection | [ONNX] https://brittishtele1bt-69836.getresponsesite.com | confidence=0.9887 | threshold=0.5 | phishing=True
+2026-06-06 06:43:27 | INFO     | app.services.detection | [RESULT] https://brittishtele1bt-69836.getresponsesite.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 0.7ms
+2026-06-06 06:54:11 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 06:54:11 | DEBUG    | app.services.onnx | ONNX inference: http://youtube.com → 0.6415
+2026-06-06 06:54:11 | DEBUG    | app.services.detection | [ONNX] http://youtube.com | confidence=0.6415 | threshold=0.5 | phishing=True
+2026-06-06 06:54:11 | INFO     | app.services.detection | [RESULT] http://youtube.com | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.3ms
+2026-06-06 06:57:25 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 06:57:25 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 06:57:25 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 06:57:25 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 07:01:19 | INFO     | app.services.detection | [ALLOWLIST] http://youtube.com | root=youtube.com | safe | 0.1ms
+2026-06-06 07:05:42 | INFO     | app.services.detection | [ALLOWLIST] http://www.facebook.com | root=facebook.com | safe | 0.1ms
+2026-06-06 07:17:32 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:17:32 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/accointances → 0.9996
+2026-06-06 07:17:32 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/accointances | confidence=0.9996 | threshold=0.5 | phishing=True
+2026-06-06 07:17:32 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/accointances | phishing=True | source=onnx_model | stages=['onnx_model'] | 82.1ms
+2026-06-06 07:18:42 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:18:42 | DEBUG    | app.services.onnx | ONNX inference: http://paypal-login.secure-verify.tk/accointances → 0.9996
+2026-06-06 07:18:42 | DEBUG    | app.services.detection | [ONNX] http://paypal-login.secure-verify.tk/accointances | confidence=0.9996 | threshold=0.5 | phishing=True
+2026-06-06 07:18:42 | INFO     | app.services.detection | [RESULT] http://paypal-login.secure-verify.tk/accointances | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.2ms
+2026-06-06 07:21:24 | INFO     | app.services.detection | [ALLOWLIST] http://youtube.com | root=youtube.com | safe | 0.1ms
+2026-06-06 07:21:47 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:21:47 | DEBUG    | app.services.onnx | ONNX inference: http://njianga.ayouba@ictuniversity.edu.cm → 0.9972
+2026-06-06 07:21:47 | DEBUG    | app.services.detection | [ONNX] http://njianga.ayouba@ictuniversity.edu.cm | confidence=0.9972 | threshold=0.5 | phishing=True
+2026-06-06 07:21:47 | INFO     | app.services.detection | [RESULT] http://njianga.ayouba@ictuniversity.edu.cm | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.0ms
+2026-06-06 07:38:44 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 07:38:56 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 07:39:28 | INFO     | app.services.detection | [ALLOWLIST] https://www.facebook.com | root=facebook.com | safe | 0.2ms
+2026-06-06 07:39:36 | INFO     | app.services.detection | [ALLOWLIST] https://www.facebook.com | root=facebook.com | safe | 0.1ms
+2026-06-06 07:40:26 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:40:26 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 07:40:26 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 07:40:26 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 4.7ms
+2026-06-06 10:54:54 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 10:54:54 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 10:54:54 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 10:54:54 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 10:55:15 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 2.3ms
+2026-06-06 10:55:26 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 10:55:56 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.2ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:56:26 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 10:56:44 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:57:47 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.2ms
+2026-06-06 10:58:17 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:58:17 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 11:01:36 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:01:36 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:01:36 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:01:36 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 131.5ms
+2026-06-06 11:02:31 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 11:02:31 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:02:31 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:02:31 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:02:31 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:02:45 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 11:02:47 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:02:47 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:02:47 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:02:47 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:04:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:04:40 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:04:40 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:04:40 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-06 11:05:21 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 11:05:21 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:05:21 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:05:21 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:05:21 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 11:06:26 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:06:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:06:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-06 11:06:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:43 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:06:43 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:06:43 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-06 11:06:46 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:46 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:06:46 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:06:46 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:07:34 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:07:34 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:07:34 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:07:34 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 203.8ms
+2026-06-06 11:08:19 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:08:19 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:08:19 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:08:19 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 98.4ms
+2026-06-06 11:10:54 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:10:54 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:10:54 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:10:54 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-06 11:11:00 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:00 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:11:00 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:11:00 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-06 11:11:32 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:32 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 0.9990
+2026-06-06 11:11:32 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=0.9990 | threshold=0.5 | phishing=True
+2026-06-06 11:11:32 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 11:11:32 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:32 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:11:32 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:11:32 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.1ms

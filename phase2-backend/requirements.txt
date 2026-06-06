@@ -1,14 +1,14 @@
 # Web framework
 flask==3.0.3
 flask-cors==4.0.1
-gunicorn==22.0.0
+waitress==3.0.1          # replaces gunicorn on Windows (gunicorn is Linux-only)
 
 # MongoDB
 pymongo==4.7.2
 
 # ONNX inference
-onnxruntime==1.18.0
-numpy==1.26.4
+onnxruntime>=1.20.0      # 1.18 not available for Python 3.13+
+numpy>=2.0.0             # numpy 2.x required for Python 3.13+
 
 # HTTP + external APIs
 requests==2.31.0

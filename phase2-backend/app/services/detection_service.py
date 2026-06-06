@@ -2,16 +2,18 @@
 Detection service — orchestrates the 3-layer phishing detection pipeline.
 
 Pipeline (in order):
-  Layer 1 — MongoDB cache  (~3ms)   : instant hit for known phishing URLs
-  Layer 2 — ONNX model    (~12ms)  : ML inference for unclassified URLs
-  Layer 3 — VirusTotal    (~1800ms): external verification for low-confidence predictions
+  Layer 0 — Trusted-domain allowlist (~0ms)  : short-circuit for known-good TLDs
+  Layer 1 — MongoDB cache            (~3ms)  : instant hit for known phishing URLs
+  Layer 2 — ONNX model              (~12ms) : ML inference for unclassified URLs
+  Layer 3 — VirusTotal             (~1800ms): external verification for low-confidence predictions
 
-Only layer 1 and 2 run for every request. Layer 3 fires only when the
+Only layers 1 and 2 run for every request. Layer 3 fires only when the
 model confidence is below CONFIDENCE_THRESHOLD (default 0.75).
 """
 import logging
 import time
 from typing import Optional
+from urllib.parse import urlparse
 
 from app.models.url_record import UrlRecord
 from app.services.mongodb_service import MongoDBService
@@ -21,6 +23,71 @@ from app.utils.url_parser import normalise, UrlParseError
 from config.settings import settings
 
 logger = logging.getLogger("app.services.detection")
+
+# Registered domain (SLD + TLD only, no subdomain) allowlist.
+# Real phishing never uses the exact legitimate domain — it always uses
+# a different TLD or subdomain (e.g. youtube.com.evil.tk, youtubelogin.tk).
+# Blocking these at Layer 0 avoids ML over-generalisation from brand-name
+# substrings in training phishing data (e.g. buatduityoutube.com).
+_TRUSTED_DOMAINS: frozenset[str] = frozenset({
+    # Google
+    "google.com", "youtube.com", "gmail.com", "googlemail.com",
+    "googleapis.com", "gstatic.com", "google.co.uk", "google.fr",
+    "google.de", "google.ca", "google.com.au", "google.co.in",
+    "googlevideo.com", "googleusercontent.com",
+    # Meta
+    "facebook.com", "instagram.com", "whatsapp.com", "messenger.com",
+    "meta.com", "fbcdn.net",
+    # Microsoft
+    "microsoft.com", "outlook.com", "live.com", "hotmail.com",
+    "office.com", "office365.com", "onedrive.com", "sharepoint.com",
+    "bing.com", "msn.com", "azure.com", "windows.com",
+    # Apple
+    "apple.com", "icloud.com", "itunes.com",
+    # Amazon / AWS
+    "amazon.com", "amazon.co.uk", "amazon.fr", "amazon.de",
+    "amazonaws.com", "aws.amazon.com", "awsstatic.com",
+    # GitHub / GitLab
+    "github.com", "githubusercontent.com", "gitlab.com",
+    # Twitter/X
+    "twitter.com", "x.com", "t.co",
+    # LinkedIn
+    "linkedin.com",
+    # Netflix / Spotify / Disney
+    "netflix.com", "spotify.com", "disneyplus.com",
+    # Finance / payments
+    "paypal.com", "stripe.com", "square.com", "cash.app",
+    "venmo.com", "wise.com", "revolut.com",
+    # Cloudflare / CDN
+    "cloudflare.com", "cloudfront.net",
+    # Wikipedia
+    "wikipedia.org", "wikimedia.org",
+    # Reddit
+    "reddit.com", "redd.it",
+    # Yahoo
+    "yahoo.com", "yahoo.fr", "yahoo.co.uk",
+    # Samsung / Android
+    "samsung.com", "android.com",
+    # Misc popular
+    "tiktok.com", "snapchat.com", "pinterest.com", "tumblr.com",
+    "wordpress.com", "blogspot.com", "medium.com",
+    "dropbox.com", "box.com", "drive.google.com",
+    "zoom.us", "slack.com", "discord.com",
+    "adobe.com", "canva.com", "figma.com",
+})
+
+
+def _root_domain(url: str) -> str:
+    """Return the registered domain (SLD.TLD) from a URL, lower-cased."""
+    try:
+        host = urlparse(url).hostname or ""
+        host = host.lower()
+        parts = host.split(".")
+        if len(parts) >= 2:
+            return ".".join(parts[-2:])
+        return host
+    except Exception:
+        return ""
 
 
 class DetectionResult:
@@ -85,15 +152,30 @@ class DetectionService:
         # ── Normalise ──────────────────────────────────────────────────────────
         url = normalise(raw_url)
 
+        # ── Layer 0: Trusted-domain allowlist ──────────────────────────────────
+        root = _root_domain(url)
+        if root in _TRUSTED_DOMAINS:
+            stages.append("allowlist")
+            record = UrlRecord(
+                url=url,
+                is_phishing=False,
+                confidence=0.01,
+                detection_source="allowlist",
+                sender_app=sender_app,
+                sender_id=sender_id,
+            )
+            elapsed = (time.perf_counter() - t_start) * 1000
+            logger.info(f"[ALLOWLIST] {url[:70]} | root={root} | safe | {elapsed:.1f}ms")
+            return DetectionResult(record, elapsed, stages)
+
         # ── Layer 1: MongoDB cache ─────────────────────────────────────────────
         cached = self._mongo.lookup(url)
         if cached is not None:
             stages.append("mongodb_cache")
-            # Update last_seen timestamp asynchronously (fire-and-forget)
             self._mongo.update_last_seen(cached.url_hash)
             elapsed = (time.perf_counter() - t_start) * 1000
             logger.info(
-                f"[CACHE HIT] {url[:70]} | "
+                f"[MONGO HIT] {url[:70]} | "
                 f"phishing={cached.is_phishing} | {elapsed:.1f}ms"
             )
             return DetectionResult(cached, elapsed, stages)
@@ -200,7 +282,7 @@ class DetectionService:
             try:
                 url = normalise(raw)
                 normalised.append(url)
-                cached = self._mongo.lookup(url)
+                cached = self._mysql.lookup(url)
                 if cached:
                     results[i] = DetectionResult(cached, 0, ["mongodb_cache"])
                 else:
@@ -228,7 +310,7 @@ class DetectionService:
                     sender_app=sender_app,
                 )
                 if is_phishing:
-                    self._mongo.insert(record)
+                    self._mysql.insert(record)
                 results[idx] = DetectionResult(record, onnx_ms / len(unresolved_urls), ["onnx_model"])
 
         return [r for r in results if r is not None]

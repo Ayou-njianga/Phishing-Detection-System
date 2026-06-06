@@ -67,7 +67,7 @@ def extract(url: str) -> dict:
 
     return {
         "uses_ip_instead_of_domain": _uses_ip(netloc),
-        "has_port": int(bool(parsed.port) and parsed.port not in {80, 443}),
+        "has_port_structural": int(bool(parsed.port) and parsed.port not in {80, 443}),
         "redirect_depth": max(0, _count_redirects(path)),
         "tld_is_high_risk": int(suffix in HIGH_RISK_TLDS),
         "domain_has_brand_impersonation": brand_in_domain,
