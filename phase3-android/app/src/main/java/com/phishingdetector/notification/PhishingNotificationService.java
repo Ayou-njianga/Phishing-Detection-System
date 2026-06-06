@@ -32,11 +32,14 @@ public class PhishingNotificationService extends NotificationListenerService {
     public void onNotificationPosted(StatusBarNotification sbn) {
         if (sbn == null) return;
         if (!PreferenceManager.getInstance(this).isServiceEnabled()) return;
-
-        // Skip our own notifications to avoid infinite loops.
         if (getPackageName().equals(sbn.getPackageName())) return;
 
         List<String> urls = parser.extractUrls(sbn);
+        if (urls.isEmpty()) {
+            Log.d(TAG, "No URLs in notification from " + sbn.getPackageName());
+        } else {
+            Log.i(TAG, sbn.getPackageName() + " → scanning " + urls.size() + " URL(s): " + urls);
+        }
         for (String url : urls) {
             checkUrl(url, sbn.getPackageName());
         }
@@ -87,6 +90,8 @@ public class PhishingNotificationService extends NotificationListenerService {
                                     .showPhishingAlert(url, body.getConfidence());
                         } else {
                             Log.d(TAG, "Safe URL: " + url);
+                            AlertManager.getInstance(PhishingNotificationService.this)
+                                    .showSafeAlert(url, body.getConfidence());
                         }
                     }
 

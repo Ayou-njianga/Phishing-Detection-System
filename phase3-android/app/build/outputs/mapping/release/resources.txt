@@ -40,7 +40,7 @@ Marking attr:motionDurationShort3:2130903849 reachable: referenced from C:\Users
 Marking dimen:m3_back_progress_side_container_max_scale_x_distance_shrink:2131099827 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:m3_back_progress_side_container_max_scale_x_distance_grow:2131099826 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:m3_back_progress_side_container_max_scale_y_distance:2131099828 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:side_sheet_accessibility_pane_title:2131755197 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:side_sheet_accessibility_pane_title:2131755199 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:materialCalendarStyle:2130903782 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:toolbarStyle:2130904215 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_Toolbar:2131821656 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -61,7 +61,7 @@ Marking dimen:mtrl_exposed_dropdown_menu_popup_elevation:2131100319 reachable: r
 Marking attr:listPopupWindowStyle:2130903745 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:motionEasingEmphasizedInterpolator:2130903856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:clear_text_end_icon_content_description:2131755067 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_ic_cancel:2131165377 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_ic_cancel:2131165378 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionBarSize:2130903045 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_bar_activity_content:2131230772 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_bar_container:2131230773 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -109,10 +109,10 @@ Marking id:row_index_key:2131231102 reachable: referenced from C:\Users\AYOUBA\P
 Marking attr:state_indeterminate:2130904045 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:state_error:2130904044 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_CheckBox:2131821580 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165364 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165365 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:isMaterial3Theme:2130903616 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_checkbox_button:2131165363 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_checkbox_button_icon:2131165365 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_checkbox_button:2131165364 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_checkbox_button_icon:2131165366 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:checked:2131230839 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:unchecked:2131231217 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:indeterminate:2131230954 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -150,13 +150,16 @@ Marking attr:actionBarTheme:2130903051 reachable: referenced from C:\Users\AYOUB
 Marking attr:actionModePopupWindowStyle:2130903066 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_mode_bar_stub:2131230786 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:exposed_dropdown_menu_content_description:2131755071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_dropdown_arrow:2131165374 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_dropdown_arrow:2131165375 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_chip_close_icon_content_description:2131755133 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:theme:2130904171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:materialThemeOverlay:2130903804 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:alert_title:2131755040 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:alert_body:2131755039 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:ic_shield_alert:2131165340 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:safe_alert_title:2131755194 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:safe_alert_body:2131755193 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_shield_check:2131165341 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:fragment_container_view_tag:2131230928 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:support_simple_spinner_dropdown_item:2131427437 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionModeStyle:2130903070 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -169,7 +172,7 @@ Marking id:action_bar_subtitle:2131230776 reachable: referenced from C:\Users\AY
 Marking attr:switchStyle:2130904071 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_Switch:2131821582 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:mtrl_switch_thumb_elevation:2131100402 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:title_results:2131755205 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:title_results:2131755207 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionBarWidgetTheme:2130903052 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:decor_content_parent:2131230870 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_context_bar:2131230780 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -227,8 +230,8 @@ Marking id:mtrl_calendar_main_pane:2131231013 reachable: referenced from C:\User
 Marking id:mtrl_picker_header_selection_text:2131231024 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_picker_header_toggle:2131231026 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_picker_title_text:2131231030 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:material_ic_calendar_black_24dp:2131165353 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:material_ic_edit_black_24dp:2131165355 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:material_ic_calendar_black_24dp:2131165354 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:material_ic_edit_black_24dp:2131165356 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131755169 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_toggle_to_text_input_mode:2131755171 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:fullscreen_header:2131230930 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -250,7 +253,7 @@ Marking layout:design_navigation_menu_item:2131427371 reachable: referenced from
 Marking dimen:design_navigation_icon_size:2131099769 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:design_menu_item_text:2131230877 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:design_menu_item_action_area_stub:2131230876 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:navigation_empty_icon:2131165399 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:navigation_empty_icon:2131165400 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:split_action_bar:2131231144 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:mtrl_internal_children_alpha_tag:2131231020 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:imageButtonStyle:2130903600 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -302,10 +305,10 @@ Marking id:action_settings:2131230788 reachable: referenced from C:\Users\AYOUBA
 Marking string:dialog_api_url_title:2131755068 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_clear_history:2131230778 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:history_cleared:2131755076 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_notif_on:2131755203 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_notif_off:2131755202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_access_on:2131755200 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:status_access_off:2131755199 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_notif_on:2131755205 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_notif_off:2131755204 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_access_on:2131755202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:status_access_off:2131755201 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:topPanel:2131231202 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:buttonPanel:2131230822 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:contentPanel:2131230856 reachable: referenced from C:\Users\AYOUBA\PHISHING\Phishing-Detection-System\phase3-android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -539,6 +542,7 @@ left
 kotlinx.coroutines.DefaultExecutor
 sender
 KotlinExtensions.kt
+scan_results
 removeItemAt
 setNextSelectedPositionInt
 emoji2.text.DefaultEmojiConfig
@@ -1427,6 +1431,7 @@ private
 ACTION_CLEAR_FOCUS
 ACTION_SCROLL_BACKWARD
 directory
+android.messages.historic
 android.graphics.drawable.VectorDrawable
 strokeLineCap
 lines
@@ -1653,6 +1658,7 @@ android:showsDialog
 item
 kotlinx.coroutines.scheduler.core.poo...
 kotlinx.coroutines.scheduler.max.pool...
+android.messages
 double
 TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
 FileSystem.SYSTEM
@@ -2023,6 +2029,7 @@ TextAppearance
 TLS_ECDH_anon_WITH_AES_128_CBC_SHA
 TLS_ECDH_ECDSA_WITH_NULL_SHA
 text/plain
+NotifParser
 android.intent.action.TIMEZONE_CHANGED
 PhishNotifService
 androidx.core.app.NotificationCompat$...
@@ -2402,11 +2409,11 @@ Marking attr:statusBarBackground:2130904049 used because it matches string pool 
 Marking attr:statusBarForeground:2130904050 used because it matches string pool constant status
 Marking attr:statusBarScrim:2130904051 used because it matches string pool constant status
 Marking integer:status_bar_notification_info_maxnum:2131296323 used because it matches string pool constant status
-Marking string:status_access_off:2131755199 used because it matches string pool constant status
-Marking string:status_access_on:2131755200 used because it matches string pool constant status
-Marking string:status_bar_notification_info_overflow:2131755201 used because it matches string pool constant status
-Marking string:status_notif_off:2131755202 used because it matches string pool constant status
-Marking string:status_notif_on:2131755203 used because it matches string pool constant status
+Marking string:status_access_off:2131755201 used because it matches string pool constant status
+Marking string:status_access_on:2131755202 used because it matches string pool constant status
+Marking string:status_bar_notification_info_overflow:2131755203 used because it matches string pool constant status
+Marking string:status_notif_off:2131755204 used because it matches string pool constant status
+Marking string:status_notif_on:2131755205 used because it matches string pool constant status
 Marking id:skipCollapsed:2131231133 used because it matches string pool constant skip
 Marking id:skipped:2131231134 used because it matches string pool constant skip
 Marking attr:menu:2130903819 used because it matches string pool constant menu
@@ -2687,18 +2694,18 @@ Marking dimen:notification_small_icon_size_as_large:2131100434 used because it m
 Marking dimen:notification_subtext_size:2131100435 used because it matches string pool constant notification
 Marking dimen:notification_top_pad:2131100436 used because it matches string pool constant notification
 Marking dimen:notification_top_pad_large_text:2131100437 used because it matches string pool constant notification
-Marking drawable:notification_action_background:2131165400 used because it matches string pool constant notification
-Marking drawable:notification_bg:2131165401 used because it matches string pool constant notification
-Marking drawable:notification_bg_low:2131165402 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_normal:2131165403 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_pressed:2131165404 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal:2131165405 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal_pressed:2131165406 used because it matches string pool constant notification
-Marking drawable:notification_icon_background:2131165407 used because it matches string pool constant notification
-Marking drawable:notification_oversize_large_icon_bg:2131165408 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_bg:2131165409 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_low_bg:2131165410 used because it matches string pool constant notification
-Marking drawable:notification_tile_bg:2131165411 used because it matches string pool constant notification
+Marking drawable:notification_action_background:2131165401 used because it matches string pool constant notification
+Marking drawable:notification_bg:2131165402 used because it matches string pool constant notification
+Marking drawable:notification_bg_low:2131165403 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2131165404 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2131165405 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal:2131165406 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2131165407 used because it matches string pool constant notification
+Marking drawable:notification_icon_background:2131165408 used because it matches string pool constant notification
+Marking drawable:notification_oversize_large_icon_bg:2131165409 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2131165410 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2131165411 used because it matches string pool constant notification
+Marking drawable:notification_tile_bg:2131165412 used because it matches string pool constant notification
 Marking id:notification_background:2131231048 used because it matches string pool constant notification
 Marking id:notification_main_column:2131231049 used because it matches string pool constant notification
 Marking id:notification_main_column_container:2131231050 used because it matches string pool constant notification
@@ -2910,7 +2917,7 @@ Marking attr:textureEffect:2130904168 used because it matches string pool consta
 Marking attr:textureHeight:2130904169 used because it matches string pool constant te
 Marking attr:textureWidth:2130904170 used because it matches string pool constant te
 Marking color:text_secondary:2131034894 used because it matches string pool constant te
-Marking drawable:test_level_drawable:2131165413 used because it matches string pool constant te
+Marking drawable:test_level_drawable:2131165414 used because it matches string pool constant te
 Marking id:text:2131231179 used because it matches string pool constant te
 Marking id:text2:2131231180 used because it matches string pool constant te
 Marking id:textEnd:2131231181 used because it matches string pool constant te
@@ -2950,8 +2957,8 @@ Marking dimen:tooltip_precise_anchor_threshold:2131100447 used because it matche
 Marking dimen:tooltip_vertical_padding:2131100448 used because it matches string pool constant to
 Marking dimen:tooltip_y_offset_non_touch:2131100449 used because it matches string pool constant to
 Marking dimen:tooltip_y_offset_touch:2131100450 used because it matches string pool constant to
-Marking drawable:tooltip_frame_dark:2131165414 used because it matches string pool constant to
-Marking drawable:tooltip_frame_light:2131165415 used because it matches string pool constant to
+Marking drawable:tooltip_frame_dark:2131165415 used because it matches string pool constant to
+Marking drawable:tooltip_frame_light:2131165416 used because it matches string pool constant to
 Marking id:toggle:2131231199 used because it matches string pool constant to
 Marking id:toolbar:2131231200 used because it matches string pool constant to
 Marking id:top:2131231201 used because it matches string pool constant to
@@ -7433,6 +7440,8 @@ Marking id:fragment_container_view_tag:2131230928 used because it matches string
 @drawable/ic_search_black_24 : reachable=false
 @drawable/ic_shield_alert : reachable=true
     @attr/colorControlNormal
+@drawable/ic_shield_check : reachable=true
+    @attr/colorControlNormal
 @drawable/m3_avd_hide_password : reachable=false
     @drawable/$m3_avd_hide_password__0
     @drawable/$m3_avd_hide_password__1
@@ -9043,6 +9052,8 @@ Marking id:fragment_container_view_tag:2131230928 used because it matches string
 @string/result_safe : reachable=true
 @string/result_title_phishing : reachable=true
 @string/result_title_safe : reachable=true
+@string/safe_alert_body : reachable=true
+@string/safe_alert_title : reachable=true
 @string/search_menu_title : reachable=false
 @string/searchbar_scrolling_view_behavior : reachable=false
 @string/searchview_clear_text_content_description : reachable=false
@@ -18468,29 +18479,30 @@ The root reachable resources are:
  drawable:abc_vector_test:2131165302
  drawable:design_password_eye:2131165316
  drawable:ic_shield_alert:2131165340
- drawable:material_ic_calendar_black_24dp:2131165353
- drawable:material_ic_edit_black_24dp:2131165355
- drawable:mtrl_checkbox_button:2131165363
- drawable:mtrl_checkbox_button_checked_unchecked:2131165364
- drawable:mtrl_checkbox_button_icon:2131165365
- drawable:mtrl_dropdown_arrow:2131165374
- drawable:mtrl_ic_cancel:2131165377
- drawable:navigation_empty_icon:2131165399
- drawable:notification_action_background:2131165400
- drawable:notification_bg:2131165401
- drawable:notification_bg_low:2131165402
- drawable:notification_bg_low_normal:2131165403
- drawable:notification_bg_low_pressed:2131165404
- drawable:notification_bg_normal:2131165405
- drawable:notification_bg_normal_pressed:2131165406
- drawable:notification_icon_background:2131165407
- drawable:notification_oversize_large_icon_bg:2131165408
- drawable:notification_template_icon_bg:2131165409
- drawable:notification_template_icon_low_bg:2131165410
- drawable:notification_tile_bg:2131165411
- drawable:test_level_drawable:2131165413
- drawable:tooltip_frame_dark:2131165414
- drawable:tooltip_frame_light:2131165415
+ drawable:ic_shield_check:2131165341
+ drawable:material_ic_calendar_black_24dp:2131165354
+ drawable:material_ic_edit_black_24dp:2131165356
+ drawable:mtrl_checkbox_button:2131165364
+ drawable:mtrl_checkbox_button_checked_unchecked:2131165365
+ drawable:mtrl_checkbox_button_icon:2131165366
+ drawable:mtrl_dropdown_arrow:2131165375
+ drawable:mtrl_ic_cancel:2131165378
+ drawable:navigation_empty_icon:2131165400
+ drawable:notification_action_background:2131165401
+ drawable:notification_bg:2131165402
+ drawable:notification_bg_low:2131165403
+ drawable:notification_bg_low_normal:2131165404
+ drawable:notification_bg_low_pressed:2131165405
+ drawable:notification_bg_normal:2131165406
+ drawable:notification_bg_normal_pressed:2131165407
+ drawable:notification_icon_background:2131165408
+ drawable:notification_oversize_large_icon_bg:2131165409
+ drawable:notification_template_icon_bg:2131165410
+ drawable:notification_template_icon_low_bg:2131165411
+ drawable:notification_tile_bg:2131165412
+ drawable:test_level_drawable:2131165414
+ drawable:tooltip_frame_dark:2131165415
+ drawable:tooltip_frame_light:2131165416
  id:BOTTOM_END:2131230721
  id:BOTTOM_START:2131230722
  id:SHOW_ALL:2131230728
@@ -18879,13 +18891,15 @@ The root reachable resources are:
  string:result_safe:2131755190
  string:result_title_phishing:2131755191
  string:result_title_safe:2131755192
- string:side_sheet_accessibility_pane_title:2131755197
- string:status_access_off:2131755199
- string:status_access_on:2131755200
- string:status_bar_notification_info_overflow:2131755201
- string:status_notif_off:2131755202
- string:status_notif_on:2131755203
- string:title_results:2131755205
+ string:safe_alert_body:2131755193
+ string:safe_alert_title:2131755194
+ string:side_sheet_accessibility_pane_title:2131755199
+ string:status_access_off:2131755201
+ string:status_access_on:2131755202
+ string:status_bar_notification_info_overflow:2131755203
+ string:status_notif_off:2131755204
+ string:status_notif_on:2131755205
+ string:title_results:2131755207
  style:CardView:2131820831
  style:TextAppearance_AppCompat:2131820947
  style:TextAppearance_AppCompat_Body1:2131820948
@@ -20182,32 +20196,32 @@ Unused resources are:
  drawable:ic_m3_chip_checked_circle:2131165333
  drawable:ic_m3_chip_close:2131165334
  drawable:ic_search_black_24:2131165339
- drawable:m3_avd_hide_password:2131165341
- drawable:m3_avd_show_password:2131165342
- drawable:m3_bottom_sheet_drag_handle:2131165343
- drawable:m3_password_eye:2131165344
- drawable:m3_popupmenu_background_overlay:2131165345
- drawable:m3_radiobutton_ripple:2131165346
- drawable:m3_selection_control_ripple:2131165347
- drawable:m3_tabs_background:2131165348
- drawable:m3_tabs_line_indicator:2131165349
- drawable:m3_tabs_rounded_line_indicator:2131165350
- drawable:m3_tabs_transparent_background:2131165351
- drawable:material_ic_menu_arrow_up_black_24dp:2131165361
- drawable:mtrl_bottomsheet_drag_handle:2131165362
- drawable:mtrl_navigation_bar_item_background:2131165383
- drawable:mtrl_switch_thumb:2131165386
- drawable:mtrl_switch_thumb_checked:2131165387
- drawable:mtrl_switch_thumb_checked_pressed:2131165388
- drawable:mtrl_switch_thumb_checked_unchecked:2131165389
- drawable:mtrl_switch_thumb_pressed:2131165390
- drawable:mtrl_switch_thumb_pressed_checked:2131165391
- drawable:mtrl_switch_thumb_pressed_unchecked:2131165392
- drawable:mtrl_switch_thumb_unchecked:2131165393
- drawable:mtrl_switch_thumb_unchecked_checked:2131165394
- drawable:mtrl_switch_thumb_unchecked_pressed:2131165395
- drawable:mtrl_switch_track:2131165396
- drawable:mtrl_switch_track_decoration:2131165397
+ drawable:m3_avd_hide_password:2131165342
+ drawable:m3_avd_show_password:2131165343
+ drawable:m3_bottom_sheet_drag_handle:2131165344
+ drawable:m3_password_eye:2131165345
+ drawable:m3_popupmenu_background_overlay:2131165346
+ drawable:m3_radiobutton_ripple:2131165347
+ drawable:m3_selection_control_ripple:2131165348
+ drawable:m3_tabs_background:2131165349
+ drawable:m3_tabs_line_indicator:2131165350
+ drawable:m3_tabs_rounded_line_indicator:2131165351
+ drawable:m3_tabs_transparent_background:2131165352
+ drawable:material_ic_menu_arrow_up_black_24dp:2131165362
+ drawable:mtrl_bottomsheet_drag_handle:2131165363
+ drawable:mtrl_navigation_bar_item_background:2131165384
+ drawable:mtrl_switch_thumb:2131165387
+ drawable:mtrl_switch_thumb_checked:2131165388
+ drawable:mtrl_switch_thumb_checked_pressed:2131165389
+ drawable:mtrl_switch_thumb_checked_unchecked:2131165390
+ drawable:mtrl_switch_thumb_pressed:2131165391
+ drawable:mtrl_switch_thumb_pressed_checked:2131165392
+ drawable:mtrl_switch_thumb_pressed_unchecked:2131165393
+ drawable:mtrl_switch_thumb_unchecked:2131165394
+ drawable:mtrl_switch_thumb_unchecked_checked:2131165395
+ drawable:mtrl_switch_thumb_unchecked_pressed:2131165396
+ drawable:mtrl_switch_track:2131165397
+ drawable:mtrl_switch_track_decoration:2131165398
  id:ALT:2131230720
  id:CTRL:2131230723
  id:FUNCTION:2131230724
@@ -20621,11 +20635,11 @@ Unused resources are:
  string:mtrl_switch_track_path:2131755180
  string:mtrl_timepicker_cancel:2131755181
  string:mtrl_timepicker_confirm:2131755182
- string:search_menu_title:2131755193
- string:searchbar_scrolling_view_behavior:2131755194
- string:searchview_clear_text_content_description:2131755195
- string:searchview_navigation_content_description:2131755196
- string:side_sheet_behavior:2131755198
+ string:search_menu_title:2131755195
+ string:searchbar_scrolling_view_behavior:2131755196
+ string:searchview_clear_text_content_description:2131755197
+ string:searchview_navigation_content_description:2131755198
+ string:side_sheet_behavior:2131755200
  style:Animation_AppCompat_Tooltip:2131820548
  style:Animation_Design_BottomSheetDialog:2131820549
  style:Animation_Material3_BottomSheetDialog:2131820550

@@ -19245,6 +19245,8 @@ com.phishingdetector.databinding.ActivityResultsBinding:
 com.phishingdetector.databinding.ItemResultBinding:
     public synthetic bridge android.view.View getRoot()
     public static com.phishingdetector.databinding.ItemResultBinding inflate(android.view.LayoutInflater)
+com.phishingdetector.notification.NotificationParser:
+    private static final java.lang.String TAG
 com.phishingdetector.notification.UrlExtractor:
     private static final int MAX_URLS_PER_NOTIFICATION
 kotlin.ArrayIntrinsicsKt
@@ -29281,6 +29283,7 @@ androidx.core.app.NavUtils
 androidx.core.app.NotificationBuilderWithBuilderAccessor
 androidx.core.app.NotificationCompat$Action
 androidx.core.app.NotificationCompat$BigTextStyle:
+    public void <init>()
     public final void addCompatExtras()
     public final void apply()
     public static androidx.core.app.NotificationCompat$BigTextStyle bigText()
@@ -29323,10 +29326,8 @@ androidx.core.app.NotificationCompat$Builder:
     public long mTimeout
     public boolean mUseChronometer
     public int mVisibility
-    public static android.app.Notification build()
     public final android.os.Bundle getExtras()
-    public static java.lang.CharSequence limitCharSequenceLength(java.lang.String)
-    public static androidx.core.app.NotificationCompat$Builder setAutoCancel()
+    public final void setAutoCancel()
     public static androidx.core.app.NotificationCompat$Builder setContentIntent()
     public static androidx.core.app.NotificationCompat$Builder setContentText()
     public static androidx.core.app.NotificationCompat$Builder setContentTitle()

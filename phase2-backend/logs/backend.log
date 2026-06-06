@@ -1189,3 +1189,85 @@
 2026-06-06 07:21:47 | DEBUG    | app.services.onnx | ONNX inference: http://njianga.ayouba@ictuniversity.edu.cm → 0.9972
 2026-06-06 07:21:47 | DEBUG    | app.services.detection | [ONNX] http://njianga.ayouba@ictuniversity.edu.cm | confidence=0.9972 | threshold=0.5 | phishing=True
 2026-06-06 07:21:47 | INFO     | app.services.detection | [RESULT] http://njianga.ayouba@ictuniversity.edu.cm | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.0ms
+2026-06-06 07:38:44 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 07:38:56 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 07:39:28 | INFO     | app.services.detection | [ALLOWLIST] https://www.facebook.com | root=facebook.com | safe | 0.2ms
+2026-06-06 07:39:36 | INFO     | app.services.detection | [ALLOWLIST] https://www.facebook.com | root=facebook.com | safe | 0.1ms
+2026-06-06 07:40:26 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 07:40:26 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 07:40:26 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 07:40:26 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 4.7ms
+2026-06-06 10:54:54 | ERROR    | app.services.mysql | MySQL connection failed: 1049 (42000): Unknown database 'phishing_detector'
+2026-06-06 10:54:54 | INFO     | app.services.onnx | ONNX model loaded | path=phishing_detector_quantized.onnx | kind=real | input=float_input | features=36
+2026-06-06 10:54:54 | WARNING  | app.services.virustotal | VIRUSTOTAL_API_KEY not set. VirusTotal checks will be skipped.
+2026-06-06 10:54:54 | INFO     | app | Phishing Detection Backend started | env=production | model=phishing_detector_quantized.onnx
+2026-06-06 10:55:15 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 2.3ms
+2026-06-06 10:55:26 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 10:55:56 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.2ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.2ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 10:56:14 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:56:26 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 10:56:44 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:57:47 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.2ms
+2026-06-06 10:58:17 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 10:58:17 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 11:01:36 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:01:36 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:01:36 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:01:36 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 131.5ms
+2026-06-06 11:02:31 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 11:02:31 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:02:31 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:02:31 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:02:31 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:02:45 | INFO     | app.services.detection | [ALLOWLIST] https://chat.whatsapp.com/HdATfNLoMleJHz9STzcDv1?s=sw&p=i&ilr=1 | root=whatsapp.com | safe | 0.1ms
+2026-06-06 11:02:47 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:02:47 | DEBUG    | app.services.onnx | ONNX inference: https://amazon-security-alert.xyz/verify-account → 0.9989
+2026-06-06 11:02:47 | DEBUG    | app.services.detection | [ONNX] https://amazon-security-alert.xyz/verify-account | confidence=0.9989 | threshold=0.5 | phishing=True
+2026-06-06 11:02:47 | INFO     | app.services.detection | [RESULT] https://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:04:40 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:04:40 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:04:40 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:04:40 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-06 11:05:21 | INFO     | app.services.detection | [ALLOWLIST] https://www.google.com | root=google.com | safe | 0.1ms
+2026-06-06 11:05:21 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:05:21 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:05:21 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:05:21 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.3ms
+2026-06-06 11:06:26 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:26 | DEBUG    | app.services.onnx | ONNX inference: https://paypal-login.secure-verify.tk/account → 0.9997
+2026-06-06 11:06:26 | DEBUG    | app.services.detection | [ONNX] https://paypal-login.secure-verify.tk/account | confidence=0.9997 | threshold=0.5 | phishing=True
+2026-06-06 11:06:26 | INFO     | app.services.detection | [RESULT] https://paypal-login.secure-verify.tk/account | phishing=True | source=onnx_model | stages=['onnx_model'] | 2.5ms
+2026-06-06 11:06:43 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:43 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:06:43 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:06:43 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.9ms
+2026-06-06 11:06:46 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:06:46 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:06:46 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:06:46 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.4ms
+2026-06-06 11:07:34 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:07:34 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:07:34 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:07:34 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 203.8ms
+2026-06-06 11:08:19 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:08:19 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:08:19 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:08:19 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 98.4ms
+2026-06-06 11:10:54 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:10:54 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:10:54 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:10:54 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.8ms
+2026-06-06 11:11:00 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:00 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:11:00 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:11:00 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 2.1ms
+2026-06-06 11:11:32 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:32 | DEBUG    | app.services.onnx | ONNX inference: http://amazon-security-alert.xyz/verify-account → 0.9990
+2026-06-06 11:11:32 | DEBUG    | app.services.detection | [ONNX] http://amazon-security-alert.xyz/verify-account | confidence=0.9990 | threshold=0.5 | phishing=True
+2026-06-06 11:11:32 | INFO     | app.services.detection | [RESULT] http://amazon-security-alert.xyz/verify-account | phishing=True | source=onnx_model | stages=['onnx_model'] | 1.1ms
+2026-06-06 11:11:32 | WARNING  | app.services.mysql | MySQL not connected — skipping cache lookup
+2026-06-06 11:11:32 | DEBUG    | app.services.onnx | ONNX inference: https://forms.gle/mHzAB8hiBqeEHiqQ8 → 0.3892
+2026-06-06 11:11:32 | DEBUG    | app.services.detection | [ONNX] https://forms.gle/mHzAB8hiBqeEHiqQ8 | confidence=0.3892 | threshold=0.5 | phishing=False
+2026-06-06 11:11:32 | INFO     | app.services.detection | [RESULT] https://forms.gle/mHzAB8hiBqeEHiqQ8 | phishing=False | source=onnx_model | stages=['onnx_model'] | 1.1ms

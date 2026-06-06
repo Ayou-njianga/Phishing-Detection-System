@@ -2154,6 +2154,8 @@
     <string name="result_safe">This URL appears safe (confidence %1$d%%).</string>
     <string name="result_title_phishing">⚠ Phishing URL</string>
     <string name="result_title_safe">✓ Safe URL</string>
+    <string name="safe_alert_body">Safe · %1$d%% confidence\n%2$s</string>
+    <string name="safe_alert_title">✓ URL Scanned — Safe</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior

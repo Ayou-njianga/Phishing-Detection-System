@@ -3,7 +3,7 @@ Detection service — orchestrates the 3-layer phishing detection pipeline.
 
 Pipeline (in order):
   Layer 0 — Trusted-domain allowlist (~0ms)  : short-circuit for known-good TLDs
-  Layer 1 — MySQL cache              (~3ms)  : instant hit for known phishing URLs
+  Layer 1 — MongoDB cache            (~3ms)  : instant hit for known phishing URLs
   Layer 2 — ONNX model              (~12ms) : ML inference for unclassified URLs
   Layer 3 — VirusTotal             (~1800ms): external verification for low-confidence predictions
 
@@ -16,7 +16,7 @@ from typing import Optional
 from urllib.parse import urlparse
 
 from app.models.url_record import UrlRecord
-from app.services.mysql_service import MySQLService
+from app.services.mongodb_service import MongoDBService
 from app.services.onnx_service import OnnxService
 from app.services.virustotal_service import VirusTotalService
 from app.utils.url_parser import normalise, UrlParseError
@@ -115,11 +115,11 @@ class DetectionService:
 
     def __init__(
         self,
-        mysql: MySQLService,
+        mongodb: MongoDBService,
         onnx: OnnxService,
         virustotal: VirusTotalService,
     ):
-        self._mysql = mysql
+        self._mongo = mongodb
         self._onnx = onnx
         self._vt = virustotal
         self._threshold = settings.CONFIDENCE_THRESHOLD
@@ -168,15 +168,14 @@ class DetectionService:
             logger.info(f"[ALLOWLIST] {url[:70]} | root={root} | safe | {elapsed:.1f}ms")
             return DetectionResult(record, elapsed, stages)
 
-        # ── Layer 1: MySQL cache ───────────────────────────────────────────────
-        cached = self._mysql.lookup(url)
+        # ── Layer 1: MongoDB cache ─────────────────────────────────────────────
+        cached = self._mongo.lookup(url)
         if cached is not None:
-            stages.append("mysql_cache")
-            # Update last_seen timestamp asynchronously (fire-and-forget)
-            self._mysql.update_last_seen(cached.url_hash)
+            stages.append("mongodb_cache")
+            self._mongo.update_last_seen(cached.url_hash)
             elapsed = (time.perf_counter() - t_start) * 1000
             logger.info(
-                f"[MYSQL HIT] {url[:70]} | "
+                f"[MONGO HIT] {url[:70]} | "
                 f"phishing={cached.is_phishing} | {elapsed:.1f}ms"
             )
             return DetectionResult(cached, elapsed, stages)
@@ -243,7 +242,7 @@ class DetectionService:
 
         # Only cache confirmed phishing URLs to keep the collection targeted
         if is_phishing:
-            self._mysql.insert(record)
+            self._mongo.insert(record)
 
         elapsed = (time.perf_counter() - t_start) * 1000
         logger.info(

@@ -33,7 +33,7 @@ def create_app(test_config: dict = None) -> Flask:
     app.config.from_mapping(
         SECRET_KEY=settings.SECRET_KEY,
         DEBUG=settings.DEBUG,
-        MYSQL_HOST=settings.MYSQL_HOST,
+        MONGO_URI=settings.MONGO_URI,
         ONNX_MODEL_PATH=settings.ONNX_MODEL_PATH,
         CONFIDENCE_THRESHOLD=settings.CONFIDENCE_THRESHOLD,
         VIRUSTOTAL_API_KEY=settings.VIRUSTOTAL_API_KEY,
@@ -49,18 +49,18 @@ def create_app(test_config: dict = None) -> Flask:
     _configure_logging()
 
     # ── Services (initialised once at startup) ─────────────────────────────────
-    from app.services.mysql_service import MySQLService
+    from app.services.mongodb_service import MongoDBService
     from app.services.onnx_service import OnnxService
     from app.services.virustotal_service import VirusTotalService
     from app.services.detection_service import DetectionService
 
-    mysql = MySQLService()
+    mongodb = MongoDBService()
     onnx = OnnxService()
     virustotal = VirusTotalService()
-    detection = DetectionService(mysql=mysql, onnx=onnx, virustotal=virustotal)
+    detection = DetectionService(mongodb=mongodb, onnx=onnx, virustotal=virustotal)
 
     # Attach services to app context so routes can access them
-    app.extensions["mysql"] = mysql
+    app.extensions["mongodb"] = mongodb
     app.extensions["onnx"] = onnx
     app.extensions["virustotal"] = virustotal
     app.extensions["detection"] = detection

@@ -18,13 +18,11 @@ class Settings:
     DEBUG: bool = os.getenv("FLASK_DEBUG", "0") == "1"
     SECRET_KEY: str = os.getenv("SECRET_KEY", "dev-secret-do-not-use-in-prod")
 
-    # ── MySQL ──────────────────────────────────────────────────────────────────
-    MYSQL_HOST: str     = os.getenv("MYSQL_HOST", "localhost")
-    MYSQL_PORT: int     = int(os.getenv("MYSQL_PORT", "3306"))
-    MYSQL_DB: str       = os.getenv("MYSQL_DB", "phishing_detector")
-    MYSQL_USER: str     = os.getenv("MYSQL_USER", "root")
-    MYSQL_PASSWORD: str = os.getenv("MYSQL_PASSWORD", "")
-    MYSQL_TIMEOUT_SEC: int = int(os.getenv("MYSQL_TIMEOUT_SEC", "5"))
+    # ── MongoDB ────────────────────────────────────────────────────────────────
+    MONGO_URI: str        = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+    MONGO_DB_NAME: str    = os.getenv("MONGO_DB", "phishing_detector")
+    MONGO_COLLECTION_PHISHING: str = os.getenv("MONGO_COLLECTION", "phishing_urls")
+    MONGO_TIMEOUT_MS: int = int(os.getenv("MONGO_TIMEOUT_MS", "5000"))
 
     # ── ONNX model ─────────────────────────────────────────────────────────────
     _models_dir = Path(__file__).parent.parent.parent / "phase1-model" / "outputs" / "models"

@@ -28,6 +28,7 @@ drawable ic_delete
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_shield_alert
+drawable ic_shield_check
 id action_clear_history
 id action_settings
 id btnScan
@@ -82,6 +83,8 @@ string result_phishing
 string result_safe
 string result_title_phishing
 string result_title_safe
+string safe_alert_body
+string safe_alert_title
 string status_access_off
 string status_access_on
 string status_notif_off

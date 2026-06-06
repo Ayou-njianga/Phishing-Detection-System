@@ -42,9 +42,11 @@
     <string name="result_phishing">This URL is likely phishing (confidence %1$d%%).\nDo not click or share it.</string>
     <string name="result_safe">This URL appears safe (confidence %1$d%%).</string>
 
-    <!-- Alert notification -->
+    <!-- Alert notifications -->
     <string name="alert_title">⚠ Phishing URL Detected</string>
     <string name="alert_body">Confidence: %1$d%%\n%2$s</string>
+    <string name="safe_alert_title">✓ URL Scanned — Safe</string>
+    <string name="safe_alert_body">Safe · %1$d%% confidence\n%2$s</string>
 
     <!-- Menu -->
     <string name="action_settings">Backend URL</string>

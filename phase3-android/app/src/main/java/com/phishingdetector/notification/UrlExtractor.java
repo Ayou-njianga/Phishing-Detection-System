@@ -7,11 +7,17 @@ import java.util.regex.Pattern;
 
 public class UrlExtractor {
 
-    // Matches http(s) URLs; also captures bare domains starting with www.
+    // Matches:
+    //   • Full URLs:  http(s)://anything
+    //   • www. links: www.example.com/path  (prefixed with https://)
+    //   • Shortened URLs without scheme: bit.ly/xxx, t.co/xxx, goo.gl/xxx, wa.me/xxx
+    //     (known shortener SLDs only, to avoid false-positives on plain words)
     private static final Pattern URL_PATTERN = Pattern.compile(
-            "(?i)(?:https?://|www\\.)[\\w\\-]+(\\.[\\w\\-]+)+"
-            + "(/[\\w\\-._~:/?#\\[\\]@!$&'()*+,;=%]*)?",
-            Pattern.CASE_INSENSITIVE
+            "(?i)(?:https?://[\\w\\-]+(\\.[\\w\\-]+)+"
+            + "(/[\\w\\-._~:/?#\\[\\]@!$&'()*+,;=%]*)?"
+            + "|www\\.[\\w\\-]+(\\.[\\w\\-]+)+(/[\\w\\-._~:/?#\\[\\]@!$&'()*+,;=%]*)?"
+            + "|(?:bit\\.ly|t\\.co|goo\\.gl|tinyurl\\.com|ow\\.ly|buff\\.ly"
+            + "|wa\\.me|is\\.gd|rb\\.gy|short\\.link|url\\.ie)/[\\w\\-._~:/?#@!$&'()*+,;=%]+)"
     );
 
     private static final int MAX_URLS_PER_NOTIFICATION = 5;
