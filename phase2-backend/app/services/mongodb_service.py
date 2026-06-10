@@ -16,7 +16,7 @@ from typing import Optional
 import pymongo
 from pymongo import MongoClient
 from pymongo.collection import Collection
-from pymongo.errors import ConnectionFailure, OperationFailure
+from pymongo.errors import ConnectionFailure, ConfigurationError, OperationFailure
 
 from app.models.url_record import UrlRecord
 from config.settings import settings
@@ -36,11 +36,14 @@ class MongoDBService:
 
     def _connect(self):
         """Establish connection and ensure indexes exist."""
+        import re as _re
+        uri_hint = _re.sub(r"://[^@]+@", "://<credentials>@", settings.MONGO_URI)
+        logger.info(f"MongoDB connecting to: {uri_hint}")
         try:
             self._client = MongoClient(
                 settings.MONGO_URI,
-                serverSelectionTimeoutMS=settings.MONGO_TIMEOUT_MS,
-                connectTimeoutMS=settings.MONGO_TIMEOUT_MS,
+                serverSelectionTimeoutMS=30_000,   # 30 s — Atlas needs this on cold start
+                connectTimeoutMS=10_000,
             )
             # Trigger actual connection check
             self._client.admin.command("ping")
@@ -53,9 +56,11 @@ class MongoDBService:
                 f"MongoDB connected | db={settings.MONGO_DB_NAME} "
                 f"| collection={settings.MONGO_COLLECTION_PHISHING}"
             )
-        except ConnectionFailure as exc:
-            logger.error(f"MongoDB connection failed: {exc}")
-            # Don't crash the server — the detection pipeline degrades gracefully
+        except (ConnectionFailure, ConfigurationError) as exc:
+            logger.error(f"MongoDB connection failed [{type(exc).__name__}]: {exc}")
+            self._collection = None
+        except Exception as exc:
+            logger.error(f"MongoDB unexpected error [{type(exc).__name__}]: {exc}")
             self._collection = None
 
     def _ensure_indexes(self):
