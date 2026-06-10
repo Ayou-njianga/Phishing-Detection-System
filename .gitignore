@@ -6,13 +6,15 @@ __pycache__/
 venv/
 .venv/
 
-# Model outputs
-phase1-model/outputs/models/*.onnx
+# Model outputs — commit quantized .onnx (670 KB) but exclude large training artefacts
 phase1-model/outputs/models/*.h5
 phase1-model/outputs/models/*.pb
 phase1-model/data/raw/*.csv
 phase1-model/data/processed/*.csv
 phase1-model/data/splits/*.csv
+
+# Logs
+phase2-backend/logs/*.log
 
 # Android
 *.apk

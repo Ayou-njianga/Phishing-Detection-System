@@ -132,10 +132,13 @@ class MongoDBService:
 
         try:
             doc = record.to_dict()
+            # Exclude first_seen from $set — it must only appear in $setOnInsert.
+            # MongoDB rejects the same field in both operators (error code 40).
+            update_fields = {k: v for k, v in doc.items() if k != "first_seen"}
             self._collection.update_one(
                 {"url_hash": record.url_hash},
                 {
-                    "$set": doc,
+                    "$set": update_fields,
                     "$setOnInsert": {"first_seen": record.first_seen.isoformat()},
                 },
                 upsert=True,

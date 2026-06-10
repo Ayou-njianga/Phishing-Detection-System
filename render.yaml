@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: phishguard-api
+    env: python
+    rootDir: phase2-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 60 wsgi:app
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_DEBUG
+        value: "0"
+      - key: CONFIDENCE_THRESHOLD
+        value: "0.50"
+      - key: VIRUSTOTAL_TIMEOUT_SEC
+        value: "10"
+      # Set these in the Render dashboard (never commit secrets):
+      # MONGO_URI        — your MongoDB Atlas connection string
+      # SECRET_KEY       — random secret, generate one in Render dashboard
+      # VIRUSTOTAL_API_KEY — optional, leave blank to skip VT checks
